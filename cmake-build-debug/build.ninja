@@ -915,6 +915,124 @@ build chapter03/ex03-functionTemplate/CMakeFiles/rebuild_cache.util: CUSTOM_COMM
 build chapter03/ex03-functionTemplate/rebuild_cache: phony chapter03/ex03-functionTemplate/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex0401Namespace
+
+
+#############################################
+# Order-only phony target for ex0401Namespace
+
+build cmake_object_order_depends_target_ex0401Namespace: phony || chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir
+
+build chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir/main.cpp.o: CXX_COMPILER__ex0401Namespace_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/main.cpp || cmake_object_order_depends_target_ex0401Namespace
+  DEP_FILE = chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir
+  OBJECT_FILE_DIR = chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex0401Namespace
+
+
+#############################################
+# Link the executable chapter03/ex04-01-namespace/ex0401Namespace
+
+build chapter03/ex04-01-namespace/ex0401Namespace: CXX_EXECUTABLE_LINKER__ex0401Namespace_Debug chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir/main.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter03/ex04-01-namespace/ex0401Namespace
+  TARGET_PDB = ex0401Namespace.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter03/ex04-01-namespace/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-01-namespace && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter03/ex04-01-namespace/edit_cache: phony chapter03/ex04-01-namespace/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter03/ex04-01-namespace/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-01-namespace && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter03/ex04-01-namespace/rebuild_cache: phony chapter03/ex04-01-namespace/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex0402NestNamespace
+
+
+#############################################
+# Order-only phony target for ex0402NestNamespace
+
+build cmake_object_order_depends_target_ex0402NestNamespace: phony || chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir
+
+build chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir/main.cpp.o: CXX_COMPILER__ex0402NestNamespace_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/main.cpp || cmake_object_order_depends_target_ex0402NestNamespace
+  DEP_FILE = chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir
+  OBJECT_FILE_DIR = chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex0402NestNamespace
+
+
+#############################################
+# Link the executable chapter03/ex04-02-nest-namespace/ex0402NestNamespace
+
+build chapter03/ex04-02-nest-namespace/ex0402NestNamespace: CXX_EXECUTABLE_LINKER__ex0402NestNamespace_Debug chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir/main.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter03/ex04-02-nest-namespace/ex0402NestNamespace
+  TARGET_PDB = ex0402NestNamespace.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter03/ex04-02-nest-namespace/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-02-nest-namespace && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter03/ex04-02-nest-namespace/edit_cache: phony chapter03/ex04-02-nest-namespace/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter03/ex04-02-nest-namespace/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-02-nest-namespace && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter03/ex04-02-nest-namespace/rebuild_cache: phony chapter03/ex04-02-nest-namespace/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build ex01DefaultParameter: phony chapter03/ex01-defaultParameter/ex01DefaultParameter
@@ -940,6 +1058,10 @@ build ex0302RvalueRef: phony chapter02/ex03_02-RvalueRef/ex0302RvalueRef
 build ex03FunctionTemplate: phony chapter03/ex03-functionTemplate/ex03FunctionTemplate
 
 build ex03RvalueRef: phony chapter02/ex03_01-RvalueRef/ex03RvalueRef
+
+build ex0401Namespace: phony chapter03/ex04-01-namespace/ex0401Namespace
+
+build ex0402NestNamespace: phony chapter03/ex04-02-nest-namespace/ex0402NestNamespace
 
 build ex04RangLoop: phony chapter02/ex04-rangeLoop/ex04RangLoop
 
@@ -1042,7 +1164,7 @@ build chapter02/ex04-rangeLoop/all: phony chapter02/ex04-rangeLoop/ex04RangLoop
 #############################################
 # Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03
 
-build chapter03/all: phony chapter03/ex01-defaultParameter/all chapter03/ex02-overloading/all chapter03/ex03-functionTemplate/all
+build chapter03/all: phony chapter03/ex01-defaultParameter/all chapter03/ex02-overloading/all chapter03/ex03-functionTemplate/all chapter03/ex04-01-namespace/all chapter03/ex04-02-nest-namespace/all
 
 # =============================================================================
 
@@ -1066,6 +1188,20 @@ build chapter03/ex02-overloading/all: phony chapter03/ex02-overloading/ex02OverL
 build chapter03/ex03-functionTemplate/all: phony chapter03/ex03-functionTemplate/ex03FunctionTemplate
 
 # =============================================================================
+
+#############################################
+# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-01-namespace
+
+build chapter03/ex04-01-namespace/all: phony chapter03/ex04-01-namespace/ex0401Namespace
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-02-nest-namespace
+
+build chapter03/ex04-02-nest-namespace/all: phony chapter03/ex04-02-nest-namespace/ex0402NestNamespace
+
+# =============================================================================
 # Unknown Build Time Dependencies.
 # Tell Ninja that they may appear as side effects of build rules
 # otherwise ordered by order-only dependencies.
@@ -1077,14 +1213,14 @@ build chapter03/ex03-functionTemplate/all: phony chapter03/ex03-functionTemplate
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################
