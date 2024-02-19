@@ -47,6 +47,13 @@ private:
     int y = 0;
 };
 
+class Test {
+public:
+    /** 명시적으로 default 생성자를 선언 하는 방법 */
+    Test();
+//    Test() = default;
+//    Test() = delete;
+};
 int main() {
     /** 인스턴스 생성 시에 호출되는 생성자는 하나 밖에 없다.*/
     MyData a(10);
