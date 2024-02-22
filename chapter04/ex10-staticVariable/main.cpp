@@ -8,7 +8,7 @@ public:
         nCount++;
     }
 
-    const int getData() {
+    int getData() const {
         return this->nData;
     }
 

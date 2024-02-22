@@ -13,10 +13,11 @@ public:
     ~CMyString();
 
     void setData(const char *pszParam);
-    /** const 를 붙여주면 간접 지정을 이용해서 값을 변경하는 것을 막아주는데 const가 역활을 한다. */
-    const char *getData();
 
-    const size_t getLength();
+    /** const 를 붙여주면 간접 지정을 이용해서 값을 변경하는 것을 막아주는데 const가 역활을 한다. */
+    char *getData() const;
+
+    size_t getLength() const;
 
 private:
     char *m_pszData = nullptr;

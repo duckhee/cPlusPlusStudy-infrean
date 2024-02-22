@@ -4,15 +4,15 @@ SRCS = main.cpp CMyString.cpp
 
 BUILD_DIR = buildDir
 
-TARGET = ExampleCMyString
+CPPOBJS = $(addprefix $(BUILD_DIR)/, $(SRCS:.cpp=.o))
+
+TARGET = ExampleCMyStringStep03
 
 CPP_EXTRA = CMyString.h
 
 CPP_INC = $(patsubst %,-I%, $(CPP_EXTRA))
 
 CPP_FLAGS = -std=c++14
-
-CPPOBJS = $(addprefix $(BUILD_DIR)/, $(SRCS:.cpp=.o))
 
 all: clean createdirs build
 

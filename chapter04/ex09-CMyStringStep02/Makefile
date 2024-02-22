@@ -4,7 +4,7 @@ SRCS = main.cpp CMyString.cpp
 
 BUILD_DIR = buildDir
 
-TARGET = ExampleCMyString
+TARGET = ExampleCMyStringStep02
 
 CPP_EXTRA = CMyString.h
 

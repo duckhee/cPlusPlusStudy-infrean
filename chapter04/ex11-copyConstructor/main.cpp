@@ -17,7 +17,7 @@ public:
         this->nData = data;
     }
 
-    const int getData() {
+     int getData() const {
         return this->nData;
     }
 

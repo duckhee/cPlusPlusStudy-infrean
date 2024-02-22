@@ -1561,65 +1561,65 @@ build chapter04/ex07-thisPointer/rebuild_cache: phony chapter04/ex07-thisPointer
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target ExampleCMyString
+# Object build statements for EXECUTABLE target ExampleCMyStringStep01
 
 
 #############################################
-# Order-only phony target for ExampleCMyString
+# Order-only phony target for ExampleCMyStringStep01
 
-build cmake_object_order_depends_target_ExampleCMyString: phony || chapter04/ex08-cMyString/CMakeFiles/ExampleCMyString.dir
+build cmake_object_order_depends_target_ExampleCMyStringStep01: phony || chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir
 
-build chapter04/ex08-cMyString/CMakeFiles/ExampleCMyString.dir/main.cpp.o: CXX_COMPILER__ExampleCMyString_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyString/main.cpp || cmake_object_order_depends_target_ExampleCMyString
-  DEP_FILE = chapter04/ex08-cMyString/CMakeFiles/ExampleCMyString.dir/main.cpp.o.d
+build chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/main.cpp.o: CXX_COMPILER__ExampleCMyStringStep01_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/main.cpp || cmake_object_order_depends_target_ExampleCMyStringStep01
+  DEP_FILE = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
-  OBJECT_DIR = chapter04/ex08-cMyString/CMakeFiles/ExampleCMyString.dir
-  OBJECT_FILE_DIR = chapter04/ex08-cMyString/CMakeFiles/ExampleCMyString.dir
+  OBJECT_DIR = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir
+  OBJECT_FILE_DIR = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir
 
-build chapter04/ex08-cMyString/CMakeFiles/ExampleCMyString.dir/CMyString.cpp.o: CXX_COMPILER__ExampleCMyString_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyString/CMyString.cpp || cmake_object_order_depends_target_ExampleCMyString
-  DEP_FILE = chapter04/ex08-cMyString/CMakeFiles/ExampleCMyString.dir/CMyString.cpp.o.d
+build chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/CMyString.cpp.o: CXX_COMPILER__ExampleCMyStringStep01_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/CMyString.cpp || cmake_object_order_depends_target_ExampleCMyStringStep01
+  DEP_FILE = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/CMyString.cpp.o.d
   FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
-  OBJECT_DIR = chapter04/ex08-cMyString/CMakeFiles/ExampleCMyString.dir
-  OBJECT_FILE_DIR = chapter04/ex08-cMyString/CMakeFiles/ExampleCMyString.dir
+  OBJECT_DIR = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir
+  OBJECT_FILE_DIR = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ExampleCMyString
+# Link build statements for EXECUTABLE target ExampleCMyStringStep01
 
 
 #############################################
-# Link the executable chapter04/ex08-cMyString/ExampleCMyString
+# Link the executable chapter04/ex08-cMyStringStep01/ExampleCMyStringStep01
 
-build chapter04/ex08-cMyString/ExampleCMyString: CXX_EXECUTABLE_LINKER__ExampleCMyString_Debug chapter04/ex08-cMyString/CMakeFiles/ExampleCMyString.dir/main.cpp.o chapter04/ex08-cMyString/CMakeFiles/ExampleCMyString.dir/CMyString.cpp.o
+build chapter04/ex08-cMyStringStep01/ExampleCMyStringStep01: CXX_EXECUTABLE_LINKER__ExampleCMyStringStep01_Debug chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/main.cpp.o chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/CMyString.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
-  OBJECT_DIR = chapter04/ex08-cMyString/CMakeFiles/ExampleCMyString.dir
+  OBJECT_DIR = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = chapter04/ex08-cMyString/ExampleCMyString
-  TARGET_PDB = ExampleCMyString.dbg
+  TARGET_FILE = chapter04/ex08-cMyStringStep01/ExampleCMyStringStep01
+  TARGET_PDB = ExampleCMyStringStep01.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build chapter04/ex08-cMyString/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex08-cMyString && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build chapter04/ex08-cMyStringStep01/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex08-cMyStringStep01 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build chapter04/ex08-cMyString/edit_cache: phony chapter04/ex08-cMyString/CMakeFiles/edit_cache.util
+build chapter04/ex08-cMyStringStep01/edit_cache: phony chapter04/ex08-cMyStringStep01/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build chapter04/ex08-cMyString/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex08-cMyString && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+build chapter04/ex08-cMyStringStep01/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex08-cMyStringStep01 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build chapter04/ex08-cMyString/rebuild_cache: phony chapter04/ex08-cMyString/CMakeFiles/rebuild_cache.util
+build chapter04/ex08-cMyStringStep01/rebuild_cache: phony chapter04/ex08-cMyStringStep01/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -1627,65 +1627,65 @@ build chapter04/ex08-cMyString/rebuild_cache: phony chapter04/ex08-cMyString/CMa
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target ex09CMyString
+# Object build statements for EXECUTABLE target ExampleCMyStringStep02
 
 
 #############################################
-# Order-only phony target for ex09CMyString
+# Order-only phony target for ExampleCMyStringStep02
 
-build cmake_object_order_depends_target_ex09CMyString: phony || chapter04/ex09-CMyString/CMakeFiles/ex09CMyString.dir
+build cmake_object_order_depends_target_ExampleCMyStringStep02: phony || chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir
 
-build chapter04/ex09-CMyString/CMakeFiles/ex09CMyString.dir/main.cpp.o: CXX_COMPILER__ex09CMyString_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyString/main.cpp || cmake_object_order_depends_target_ex09CMyString
-  DEP_FILE = chapter04/ex09-CMyString/CMakeFiles/ex09CMyString.dir/main.cpp.o.d
+build chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/main.cpp.o: CXX_COMPILER__ExampleCMyStringStep02_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/main.cpp || cmake_object_order_depends_target_ExampleCMyStringStep02
+  DEP_FILE = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
-  OBJECT_DIR = chapter04/ex09-CMyString/CMakeFiles/ex09CMyString.dir
-  OBJECT_FILE_DIR = chapter04/ex09-CMyString/CMakeFiles/ex09CMyString.dir
+  OBJECT_DIR = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir
+  OBJECT_FILE_DIR = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir
 
-build chapter04/ex09-CMyString/CMakeFiles/ex09CMyString.dir/CMyString.cpp.o: CXX_COMPILER__ex09CMyString_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyString/CMyString.cpp || cmake_object_order_depends_target_ex09CMyString
-  DEP_FILE = chapter04/ex09-CMyString/CMakeFiles/ex09CMyString.dir/CMyString.cpp.o.d
+build chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/CMyString.cpp.o: CXX_COMPILER__ExampleCMyStringStep02_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/CMyString.cpp || cmake_object_order_depends_target_ExampleCMyStringStep02
+  DEP_FILE = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/CMyString.cpp.o.d
   FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
-  OBJECT_DIR = chapter04/ex09-CMyString/CMakeFiles/ex09CMyString.dir
-  OBJECT_FILE_DIR = chapter04/ex09-CMyString/CMakeFiles/ex09CMyString.dir
+  OBJECT_DIR = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir
+  OBJECT_FILE_DIR = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ex09CMyString
+# Link build statements for EXECUTABLE target ExampleCMyStringStep02
 
 
 #############################################
-# Link the executable chapter04/ex09-CMyString/ex09CMyString
+# Link the executable chapter04/ex09-CMyStringStep02/ExampleCMyStringStep02
 
-build chapter04/ex09-CMyString/ex09CMyString: CXX_EXECUTABLE_LINKER__ex09CMyString_Debug chapter04/ex09-CMyString/CMakeFiles/ex09CMyString.dir/main.cpp.o chapter04/ex09-CMyString/CMakeFiles/ex09CMyString.dir/CMyString.cpp.o
+build chapter04/ex09-CMyStringStep02/ExampleCMyStringStep02: CXX_EXECUTABLE_LINKER__ExampleCMyStringStep02_Debug chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/main.cpp.o chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/CMyString.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
-  OBJECT_DIR = chapter04/ex09-CMyString/CMakeFiles/ex09CMyString.dir
+  OBJECT_DIR = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = chapter04/ex09-CMyString/ex09CMyString
-  TARGET_PDB = ex09CMyString.dbg
+  TARGET_FILE = chapter04/ex09-CMyStringStep02/ExampleCMyStringStep02
+  TARGET_PDB = ExampleCMyStringStep02.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build chapter04/ex09-CMyString/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex09-CMyString && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build chapter04/ex09-CMyStringStep02/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex09-CMyStringStep02 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build chapter04/ex09-CMyString/edit_cache: phony chapter04/ex09-CMyString/CMakeFiles/edit_cache.util
+build chapter04/ex09-CMyStringStep02/edit_cache: phony chapter04/ex09-CMyStringStep02/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build chapter04/ex09-CMyString/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex09-CMyString && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+build chapter04/ex09-CMyStringStep02/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex09-CMyStringStep02 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build chapter04/ex09-CMyString/rebuild_cache: phony chapter04/ex09-CMyString/CMakeFiles/rebuild_cache.util
+build chapter04/ex09-CMyStringStep02/rebuild_cache: phony chapter04/ex09-CMyStringStep02/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -1928,9 +1928,79 @@ build chapter04/ex13-deepCopyAndShallowCopy/CMakeFiles/rebuild_cache.util: CUSTO
 build chapter04/ex13-deepCopyAndShallowCopy/rebuild_cache: phony chapter04/ex13-deepCopyAndShallowCopy/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ExampleCMyStringStep03
+
+
+#############################################
+# Order-only phony target for ExampleCMyStringStep03
+
+build cmake_object_order_depends_target_ExampleCMyStringStep03: phony || chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir
+
+build chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/main.cpp.o: CXX_COMPILER__ExampleCMyStringStep03_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/main.cpp || cmake_object_order_depends_target_ExampleCMyStringStep03
+  DEP_FILE = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir
+  OBJECT_FILE_DIR = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir
+
+build chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/CMyString.cpp.o: CXX_COMPILER__ExampleCMyStringStep03_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/CMyString.cpp || cmake_object_order_depends_target_ExampleCMyStringStep03
+  DEP_FILE = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/CMyString.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir
+  OBJECT_FILE_DIR = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ExampleCMyStringStep03
+
+
+#############################################
+# Link the executable chapter04/ex14-CMyStringStep03/ExampleCMyStringStep03
+
+build chapter04/ex14-CMyStringStep03/ExampleCMyStringStep03: CXX_EXECUTABLE_LINKER__ExampleCMyStringStep03_Debug chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/main.cpp.o chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/CMyString.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
+  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  OBJECT_DIR = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter04/ex14-CMyStringStep03/ExampleCMyStringStep03
+  TARGET_PDB = ExampleCMyStringStep03.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter04/ex14-CMyStringStep03/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex14-CMyStringStep03 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter04/ex14-CMyStringStep03/edit_cache: phony chapter04/ex14-CMyStringStep03/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter04/ex14-CMyStringStep03/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex14-CMyStringStep03 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter04/ex14-CMyStringStep03/rebuild_cache: phony chapter04/ex14-CMyStringStep03/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build ExampleCMyString: phony chapter04/ex08-cMyString/ExampleCMyString
+build ExampleCMyStringStep01: phony chapter04/ex08-cMyStringStep01/ExampleCMyStringStep01
+
+build ExampleCMyStringStep02: phony chapter04/ex09-CMyStringStep02/ExampleCMyStringStep02
+
+build ExampleCMyStringStep03: phony chapter04/ex14-CMyStringStep03/ExampleCMyStringStep03
 
 build ex01DefaultParameter: phony chapter03/ex01-defaultParameter/ex01DefaultParameter
 
@@ -1977,8 +2047,6 @@ build ex05NamespacePriority: phony chapter03/ex05-namespace-priority/ex05Namespa
 build ex06MultiConstructor: phony chapter04/ex06-multiConstructor/ex06MultiConstructor
 
 build ex07ThisPointer: phony chapter04/ex07-thisPointer/ex07ThisPointer
-
-build ex09CMyString: phony chapter04/ex09-CMyString/ex09CMyString
 
 build ex10StaticMember: phony chapter04/ex10-staticVariable/ex10StaticMember
 
@@ -2136,7 +2204,7 @@ build chapter03/ex05-namespace-priority/all: phony chapter03/ex05-namespace-prio
 #############################################
 # Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04
 
-build chapter04/all: phony chapter04/ex01-object/all chapter04/ex02-cStyleCcode/all chapter04/ex03-classBasicGrammar/all chapter04/ex04-classConstructorDestructor/all chapter04/ex05-classMemberVariableReset/all chapter04/ex06-multiConstructor/all chapter04/ex07-thisPointer/all chapter04/ex08-cMyString/all chapter04/ex09-CMyString/all chapter04/ex10-staticVariable/all chapter04/ex11-copyConstructor/all chapter04/ex12-tempObjAndCopyConstructor/all chapter04/ex13-deepCopyAndShallowCopy/all
+build chapter04/all: phony chapter04/ex01-object/all chapter04/ex02-cStyleCcode/all chapter04/ex03-classBasicGrammar/all chapter04/ex04-classConstructorDestructor/all chapter04/ex05-classMemberVariableReset/all chapter04/ex06-multiConstructor/all chapter04/ex07-thisPointer/all chapter04/ex08-cMyStringStep01/all chapter04/ex09-CMyStringStep02/all chapter04/ex10-staticVariable/all chapter04/ex11-copyConstructor/all chapter04/ex12-tempObjAndCopyConstructor/all chapter04/ex13-deepCopyAndShallowCopy/all chapter04/ex14-CMyStringStep03/all
 
 # =============================================================================
 
@@ -2190,16 +2258,16 @@ build chapter04/ex07-thisPointer/all: phony chapter04/ex07-thisPointer/ex07ThisP
 # =============================================================================
 
 #############################################
-# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex08-cMyString
+# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex08-cMyStringStep01
 
-build chapter04/ex08-cMyString/all: phony chapter04/ex08-cMyString/ExampleCMyString
+build chapter04/ex08-cMyStringStep01/all: phony chapter04/ex08-cMyStringStep01/ExampleCMyStringStep01
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex09-CMyString
+# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex09-CMyStringStep02
 
-build chapter04/ex09-CMyString/all: phony chapter04/ex09-CMyString/ex09CMyString
+build chapter04/ex09-CMyStringStep02/all: phony chapter04/ex09-CMyStringStep02/ExampleCMyStringStep02
 
 # =============================================================================
 
@@ -2230,6 +2298,13 @@ build chapter04/ex12-tempObjAndCopyConstructor/all: phony chapter04/ex12-tempObj
 build chapter04/ex13-deepCopyAndShallowCopy/all: phony chapter04/ex13-deepCopyAndShallowCopy/ex13DeepCopyAndShallowCopy
 
 # =============================================================================
+
+#############################################
+# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex14-CMyStringStep03
+
+build chapter04/ex14-CMyStringStep03/all: phony chapter04/ex14-CMyStringStep03/ExampleCMyStringStep03
+
+# =============================================================================
 # Unknown Build Time Dependencies.
 # Tell Ninja that they may appear as side effects of build rules
 # otherwise ordered by order-only dependencies.
@@ -2241,14 +2316,14 @@ build chapter04/ex13-deepCopyAndShallowCopy/all: phony chapter04/ex13-deepCopyAn
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyString/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyString/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyString/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyString/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################
