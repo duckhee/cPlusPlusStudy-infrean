@@ -1,7 +1,3 @@
-//
-// Created by duckhee won on 2/22/24.
-//
-
 #ifndef CPLUSPLUSSTUDY_INFREAN_CMYSTRING_H
 #define CPLUSPLUSSTUDY_INFREAN_CMYSTRING_H
 
