@@ -45,7 +45,7 @@ cmake_ninja_workdir = /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cma
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,7 +56,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -73,7 +73,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build chapter01/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -84,7 +84,7 @@ build chapter01/edit_cache: phony chapter01/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build chapter01/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -107,7 +107,7 @@ build cmake_object_order_depends_target_ex01ExampleHelloWorld: phony || chapter0
 
 build chapter01/ex01-HelloWorld/CMakeFiles/ex01ExampleHelloWorld.dir/main.cpp.o: CXX_COMPILER__ex01ExampleHelloWorld_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/main.cpp || cmake_object_order_depends_target_ex01ExampleHelloWorld
   DEP_FILE = chapter01/ex01-HelloWorld/CMakeFiles/ex01ExampleHelloWorld.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter01/ex01-HelloWorld/CMakeFiles/ex01ExampleHelloWorld.dir
   OBJECT_FILE_DIR = chapter01/ex01-HelloWorld/CMakeFiles/ex01ExampleHelloWorld.dir
 
@@ -120,8 +120,7 @@ build chapter01/ex01-HelloWorld/CMakeFiles/ex01ExampleHelloWorld.dir/main.cpp.o:
 # Link the executable chapter01/ex01-HelloWorld/ex01ExampleHelloWorld
 
 build chapter01/ex01-HelloWorld/ex01ExampleHelloWorld: CXX_EXECUTABLE_LINKER__ex01ExampleHelloWorld_Debug chapter01/ex01-HelloWorld/CMakeFiles/ex01ExampleHelloWorld.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter01/ex01-HelloWorld/CMakeFiles/ex01ExampleHelloWorld.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -133,7 +132,7 @@ build chapter01/ex01-HelloWorld/ex01ExampleHelloWorld: CXX_EXECUTABLE_LINKER__ex
 # Utility command for edit_cache
 
 build chapter01/ex01-HelloWorld/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01/ex01-HelloWorld && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01/ex01-HelloWorld && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -144,7 +143,7 @@ build chapter01/ex01-HelloWorld/edit_cache: phony chapter01/ex01-HelloWorld/CMak
 # Utility command for rebuild_cache
 
 build chapter01/ex01-HelloWorld/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01/ex01-HelloWorld && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01/ex01-HelloWorld && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -167,7 +166,7 @@ build cmake_object_order_depends_target_ex0201CoutExample: phony || chapter01/ex
 
 build chapter01/ex0201-coutExample/CMakeFiles/ex0201CoutExample.dir/main.cpp.o: CXX_COMPILER__ex0201CoutExample_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/main.cpp || cmake_object_order_depends_target_ex0201CoutExample
   DEP_FILE = chapter01/ex0201-coutExample/CMakeFiles/ex0201CoutExample.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter01/ex0201-coutExample/CMakeFiles/ex0201CoutExample.dir
   OBJECT_FILE_DIR = chapter01/ex0201-coutExample/CMakeFiles/ex0201CoutExample.dir
 
@@ -180,8 +179,7 @@ build chapter01/ex0201-coutExample/CMakeFiles/ex0201CoutExample.dir/main.cpp.o: 
 # Link the executable chapter01/ex0201-coutExample/ex0201CoutExample
 
 build chapter01/ex0201-coutExample/ex0201CoutExample: CXX_EXECUTABLE_LINKER__ex0201CoutExample_Debug chapter01/ex0201-coutExample/CMakeFiles/ex0201CoutExample.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter01/ex0201-coutExample/CMakeFiles/ex0201CoutExample.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -193,7 +191,7 @@ build chapter01/ex0201-coutExample/ex0201CoutExample: CXX_EXECUTABLE_LINKER__ex0
 # Utility command for edit_cache
 
 build chapter01/ex0201-coutExample/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01/ex0201-coutExample && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01/ex0201-coutExample && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -204,7 +202,7 @@ build chapter01/ex0201-coutExample/edit_cache: phony chapter01/ex0201-coutExampl
 # Utility command for rebuild_cache
 
 build chapter01/ex0201-coutExample/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01/ex0201-coutExample && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01/ex0201-coutExample && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -227,7 +225,7 @@ build cmake_object_order_depends_target_ex0202CinExample: phony || chapter01/ex0
 
 build chapter01/ex0202-cinExample/CMakeFiles/ex0202CinExample.dir/main.cpp.o: CXX_COMPILER__ex0202CinExample_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/main.cpp || cmake_object_order_depends_target_ex0202CinExample
   DEP_FILE = chapter01/ex0202-cinExample/CMakeFiles/ex0202CinExample.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter01/ex0202-cinExample/CMakeFiles/ex0202CinExample.dir
   OBJECT_FILE_DIR = chapter01/ex0202-cinExample/CMakeFiles/ex0202CinExample.dir
 
@@ -240,8 +238,7 @@ build chapter01/ex0202-cinExample/CMakeFiles/ex0202CinExample.dir/main.cpp.o: CX
 # Link the executable chapter01/ex0202-cinExample/ex0202CinExample
 
 build chapter01/ex0202-cinExample/ex0202CinExample: CXX_EXECUTABLE_LINKER__ex0202CinExample_Debug chapter01/ex0202-cinExample/CMakeFiles/ex0202CinExample.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter01/ex0202-cinExample/CMakeFiles/ex0202CinExample.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -253,7 +250,7 @@ build chapter01/ex0202-cinExample/ex0202CinExample: CXX_EXECUTABLE_LINKER__ex020
 # Utility command for edit_cache
 
 build chapter01/ex0202-cinExample/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01/ex0202-cinExample && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01/ex0202-cinExample && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -264,7 +261,7 @@ build chapter01/ex0202-cinExample/edit_cache: phony chapter01/ex0202-cinExample/
 # Utility command for rebuild_cache
 
 build chapter01/ex0202-cinExample/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01/ex0202-cinExample && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter01/ex0202-cinExample && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -281,7 +278,7 @@ build chapter01/ex0202-cinExample/rebuild_cache: phony chapter01/ex0202-cinExamp
 # Utility command for edit_cache
 
 build chapter02/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -292,7 +289,7 @@ build chapter02/edit_cache: phony chapter02/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build chapter02/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -315,7 +312,7 @@ build cmake_object_order_depends_target_ex01Variable: phony || chapter02/ex01_01
 
 build chapter02/ex01_01-variable/CMakeFiles/ex01Variable.dir/main.cpp.o: CXX_COMPILER__ex01Variable_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/main.cpp || cmake_object_order_depends_target_ex01Variable
   DEP_FILE = chapter02/ex01_01-variable/CMakeFiles/ex01Variable.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter02/ex01_01-variable/CMakeFiles/ex01Variable.dir
   OBJECT_FILE_DIR = chapter02/ex01_01-variable/CMakeFiles/ex01Variable.dir
 
@@ -328,8 +325,7 @@ build chapter02/ex01_01-variable/CMakeFiles/ex01Variable.dir/main.cpp.o: CXX_COM
 # Link the executable chapter02/ex01_01-variable/ex01Variable
 
 build chapter02/ex01_01-variable/ex01Variable: CXX_EXECUTABLE_LINKER__ex01Variable_Debug chapter02/ex01_01-variable/CMakeFiles/ex01Variable.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter02/ex01_01-variable/CMakeFiles/ex01Variable.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -341,7 +337,7 @@ build chapter02/ex01_01-variable/ex01Variable: CXX_EXECUTABLE_LINKER__ex01Variab
 # Utility command for edit_cache
 
 build chapter02/ex01_01-variable/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex01_01-variable && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex01_01-variable && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -352,7 +348,7 @@ build chapter02/ex01_01-variable/edit_cache: phony chapter02/ex01_01-variable/CM
 # Utility command for rebuild_cache
 
 build chapter02/ex01_01-variable/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex01_01-variable && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex01_01-variable && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -375,7 +371,7 @@ build cmake_object_order_depends_target_ex01VariableArray: phony || chapter02/ex
 
 build chapter02/ex01_02-variableArray/CMakeFiles/ex01VariableArray.dir/main.cpp.o: CXX_COMPILER__ex01VariableArray_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/main.cpp || cmake_object_order_depends_target_ex01VariableArray
   DEP_FILE = chapter02/ex01_02-variableArray/CMakeFiles/ex01VariableArray.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter02/ex01_02-variableArray/CMakeFiles/ex01VariableArray.dir
   OBJECT_FILE_DIR = chapter02/ex01_02-variableArray/CMakeFiles/ex01VariableArray.dir
 
@@ -388,8 +384,7 @@ build chapter02/ex01_02-variableArray/CMakeFiles/ex01VariableArray.dir/main.cpp.
 # Link the executable chapter02/ex01_02-variableArray/ex01VariableArray
 
 build chapter02/ex01_02-variableArray/ex01VariableArray: CXX_EXECUTABLE_LINKER__ex01VariableArray_Debug chapter02/ex01_02-variableArray/CMakeFiles/ex01VariableArray.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter02/ex01_02-variableArray/CMakeFiles/ex01VariableArray.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -401,7 +396,7 @@ build chapter02/ex01_02-variableArray/ex01VariableArray: CXX_EXECUTABLE_LINKER__
 # Utility command for edit_cache
 
 build chapter02/ex01_02-variableArray/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex01_02-variableArray && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex01_02-variableArray && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -412,7 +407,7 @@ build chapter02/ex01_02-variableArray/edit_cache: phony chapter02/ex01_02-variab
 # Utility command for rebuild_cache
 
 build chapter02/ex01_02-variableArray/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex01_02-variableArray && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex01_02-variableArray && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -435,7 +430,7 @@ build cmake_object_order_depends_target_ex02RefAndPointer: phony || chapter02/ex
 
 build chapter02/ex02_01-refAndPointer/CMakeFiles/ex02RefAndPointer.dir/main.cpp.o: CXX_COMPILER__ex02RefAndPointer_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/main.cpp || cmake_object_order_depends_target_ex02RefAndPointer
   DEP_FILE = chapter02/ex02_01-refAndPointer/CMakeFiles/ex02RefAndPointer.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter02/ex02_01-refAndPointer/CMakeFiles/ex02RefAndPointer.dir
   OBJECT_FILE_DIR = chapter02/ex02_01-refAndPointer/CMakeFiles/ex02RefAndPointer.dir
 
@@ -448,8 +443,7 @@ build chapter02/ex02_01-refAndPointer/CMakeFiles/ex02RefAndPointer.dir/main.cpp.
 # Link the executable chapter02/ex02_01-refAndPointer/ex02RefAndPointer
 
 build chapter02/ex02_01-refAndPointer/ex02RefAndPointer: CXX_EXECUTABLE_LINKER__ex02RefAndPointer_Debug chapter02/ex02_01-refAndPointer/CMakeFiles/ex02RefAndPointer.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter02/ex02_01-refAndPointer/CMakeFiles/ex02RefAndPointer.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -461,7 +455,7 @@ build chapter02/ex02_01-refAndPointer/ex02RefAndPointer: CXX_EXECUTABLE_LINKER__
 # Utility command for edit_cache
 
 build chapter02/ex02_01-refAndPointer/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex02_01-refAndPointer && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex02_01-refAndPointer && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -472,7 +466,7 @@ build chapter02/ex02_01-refAndPointer/edit_cache: phony chapter02/ex02_01-refAnd
 # Utility command for rebuild_cache
 
 build chapter02/ex02_01-refAndPointer/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex02_01-refAndPointer && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex02_01-refAndPointer && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -495,7 +489,7 @@ build cmake_object_order_depends_target_ex02RefAndPointerCLanguage: phony || cha
 
 build chapter02/ex02_02-refAndPointer/CMakeFiles/ex02RefAndPointerCLanguage.dir/main.c.o: C_COMPILER__ex02RefAndPointerCLanguage_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/main.c || cmake_object_order_depends_target_ex02RefAndPointerCLanguage
   DEP_FILE = chapter02/ex02_02-refAndPointer/CMakeFiles/ex02RefAndPointerCLanguage.dir/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter02/ex02_02-refAndPointer/CMakeFiles/ex02RefAndPointerCLanguage.dir
   OBJECT_FILE_DIR = chapter02/ex02_02-refAndPointer/CMakeFiles/ex02RefAndPointerCLanguage.dir
 
@@ -508,8 +502,7 @@ build chapter02/ex02_02-refAndPointer/CMakeFiles/ex02RefAndPointerCLanguage.dir/
 # Link the executable chapter02/ex02_02-refAndPointer/ex02RefAndPointerCLanguage
 
 build chapter02/ex02_02-refAndPointer/ex02RefAndPointerCLanguage: C_EXECUTABLE_LINKER__ex02RefAndPointerCLanguage_Debug chapter02/ex02_02-refAndPointer/CMakeFiles/ex02RefAndPointerCLanguage.dir/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter02/ex02_02-refAndPointer/CMakeFiles/ex02RefAndPointerCLanguage.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -521,7 +514,7 @@ build chapter02/ex02_02-refAndPointer/ex02RefAndPointerCLanguage: C_EXECUTABLE_L
 # Utility command for edit_cache
 
 build chapter02/ex02_02-refAndPointer/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex02_02-refAndPointer && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex02_02-refAndPointer && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -532,7 +525,7 @@ build chapter02/ex02_02-refAndPointer/edit_cache: phony chapter02/ex02_02-refAnd
 # Utility command for rebuild_cache
 
 build chapter02/ex02_02-refAndPointer/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex02_02-refAndPointer && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex02_02-refAndPointer && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -555,7 +548,7 @@ build cmake_object_order_depends_target_ex03RvalueRef: phony || chapter02/ex03_0
 
 build chapter02/ex03_01-RvalueRef/CMakeFiles/ex03RvalueRef.dir/main.cpp.o: CXX_COMPILER__ex03RvalueRef_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/main.cpp || cmake_object_order_depends_target_ex03RvalueRef
   DEP_FILE = chapter02/ex03_01-RvalueRef/CMakeFiles/ex03RvalueRef.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter02/ex03_01-RvalueRef/CMakeFiles/ex03RvalueRef.dir
   OBJECT_FILE_DIR = chapter02/ex03_01-RvalueRef/CMakeFiles/ex03RvalueRef.dir
 
@@ -568,8 +561,7 @@ build chapter02/ex03_01-RvalueRef/CMakeFiles/ex03RvalueRef.dir/main.cpp.o: CXX_C
 # Link the executable chapter02/ex03_01-RvalueRef/ex03RvalueRef
 
 build chapter02/ex03_01-RvalueRef/ex03RvalueRef: CXX_EXECUTABLE_LINKER__ex03RvalueRef_Debug chapter02/ex03_01-RvalueRef/CMakeFiles/ex03RvalueRef.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter02/ex03_01-RvalueRef/CMakeFiles/ex03RvalueRef.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -581,7 +573,7 @@ build chapter02/ex03_01-RvalueRef/ex03RvalueRef: CXX_EXECUTABLE_LINKER__ex03Rval
 # Utility command for edit_cache
 
 build chapter02/ex03_01-RvalueRef/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex03_01-RvalueRef && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex03_01-RvalueRef && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -592,7 +584,7 @@ build chapter02/ex03_01-RvalueRef/edit_cache: phony chapter02/ex03_01-RvalueRef/
 # Utility command for rebuild_cache
 
 build chapter02/ex03_01-RvalueRef/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex03_01-RvalueRef && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex03_01-RvalueRef && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -615,7 +607,7 @@ build cmake_object_order_depends_target_ex0302RvalueRef: phony || chapter02/ex03
 
 build chapter02/ex03_02-RvalueRef/CMakeFiles/ex0302RvalueRef.dir/main.c.o: C_COMPILER__ex0302RvalueRef_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/main.c || cmake_object_order_depends_target_ex0302RvalueRef
   DEP_FILE = chapter02/ex03_02-RvalueRef/CMakeFiles/ex0302RvalueRef.dir/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter02/ex03_02-RvalueRef/CMakeFiles/ex0302RvalueRef.dir
   OBJECT_FILE_DIR = chapter02/ex03_02-RvalueRef/CMakeFiles/ex0302RvalueRef.dir
 
@@ -628,8 +620,7 @@ build chapter02/ex03_02-RvalueRef/CMakeFiles/ex0302RvalueRef.dir/main.c.o: C_COM
 # Link the executable chapter02/ex03_02-RvalueRef/ex0302RvalueRef
 
 build chapter02/ex03_02-RvalueRef/ex0302RvalueRef: C_EXECUTABLE_LINKER__ex0302RvalueRef_Debug chapter02/ex03_02-RvalueRef/CMakeFiles/ex0302RvalueRef.dir/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter02/ex03_02-RvalueRef/CMakeFiles/ex0302RvalueRef.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -641,7 +632,7 @@ build chapter02/ex03_02-RvalueRef/ex0302RvalueRef: C_EXECUTABLE_LINKER__ex0302Rv
 # Utility command for edit_cache
 
 build chapter02/ex03_02-RvalueRef/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex03_02-RvalueRef && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex03_02-RvalueRef && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -652,7 +643,7 @@ build chapter02/ex03_02-RvalueRef/edit_cache: phony chapter02/ex03_02-RvalueRef/
 # Utility command for rebuild_cache
 
 build chapter02/ex03_02-RvalueRef/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex03_02-RvalueRef && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex03_02-RvalueRef && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -675,7 +666,7 @@ build cmake_object_order_depends_target_ex04RangLoop: phony || chapter02/ex04-ra
 
 build chapter02/ex04-rangeLoop/CMakeFiles/ex04RangLoop.dir/main.cpp.o: CXX_COMPILER__ex04RangLoop_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/main.cpp || cmake_object_order_depends_target_ex04RangLoop
   DEP_FILE = chapter02/ex04-rangeLoop/CMakeFiles/ex04RangLoop.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter02/ex04-rangeLoop/CMakeFiles/ex04RangLoop.dir
   OBJECT_FILE_DIR = chapter02/ex04-rangeLoop/CMakeFiles/ex04RangLoop.dir
 
@@ -688,8 +679,7 @@ build chapter02/ex04-rangeLoop/CMakeFiles/ex04RangLoop.dir/main.cpp.o: CXX_COMPI
 # Link the executable chapter02/ex04-rangeLoop/ex04RangLoop
 
 build chapter02/ex04-rangeLoop/ex04RangLoop: CXX_EXECUTABLE_LINKER__ex04RangLoop_Debug chapter02/ex04-rangeLoop/CMakeFiles/ex04RangLoop.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter02/ex04-rangeLoop/CMakeFiles/ex04RangLoop.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -701,7 +691,7 @@ build chapter02/ex04-rangeLoop/ex04RangLoop: CXX_EXECUTABLE_LINKER__ex04RangLoop
 # Utility command for edit_cache
 
 build chapter02/ex04-rangeLoop/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex04-rangeLoop && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex04-rangeLoop && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -712,7 +702,7 @@ build chapter02/ex04-rangeLoop/edit_cache: phony chapter02/ex04-rangeLoop/CMakeF
 # Utility command for rebuild_cache
 
 build chapter02/ex04-rangeLoop/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex04-rangeLoop && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter02/ex04-rangeLoop && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -729,7 +719,7 @@ build chapter02/ex04-rangeLoop/rebuild_cache: phony chapter02/ex04-rangeLoop/CMa
 # Utility command for edit_cache
 
 build chapter03/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -740,7 +730,7 @@ build chapter03/edit_cache: phony chapter03/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build chapter03/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -763,7 +753,7 @@ build cmake_object_order_depends_target_ex01DefaultParameter: phony || chapter03
 
 build chapter03/ex01-defaultParameter/CMakeFiles/ex01DefaultParameter.dir/main.cpp.o: CXX_COMPILER__ex01DefaultParameter_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/main.cpp || cmake_object_order_depends_target_ex01DefaultParameter
   DEP_FILE = chapter03/ex01-defaultParameter/CMakeFiles/ex01DefaultParameter.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter03/ex01-defaultParameter/CMakeFiles/ex01DefaultParameter.dir
   OBJECT_FILE_DIR = chapter03/ex01-defaultParameter/CMakeFiles/ex01DefaultParameter.dir
 
@@ -776,8 +766,7 @@ build chapter03/ex01-defaultParameter/CMakeFiles/ex01DefaultParameter.dir/main.c
 # Link the executable chapter03/ex01-defaultParameter/ex01DefaultParameter
 
 build chapter03/ex01-defaultParameter/ex01DefaultParameter: CXX_EXECUTABLE_LINKER__ex01DefaultParameter_Debug chapter03/ex01-defaultParameter/CMakeFiles/ex01DefaultParameter.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter03/ex01-defaultParameter/CMakeFiles/ex01DefaultParameter.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -789,7 +778,7 @@ build chapter03/ex01-defaultParameter/ex01DefaultParameter: CXX_EXECUTABLE_LINKE
 # Utility command for edit_cache
 
 build chapter03/ex01-defaultParameter/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex01-defaultParameter && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex01-defaultParameter && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -800,7 +789,7 @@ build chapter03/ex01-defaultParameter/edit_cache: phony chapter03/ex01-defaultPa
 # Utility command for rebuild_cache
 
 build chapter03/ex01-defaultParameter/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex01-defaultParameter && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex01-defaultParameter && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -823,7 +812,7 @@ build cmake_object_order_depends_target_ex02OverLoading: phony || chapter03/ex02
 
 build chapter03/ex02-overloading/CMakeFiles/ex02OverLoading.dir/main.cpp.o: CXX_COMPILER__ex02OverLoading_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/main.cpp || cmake_object_order_depends_target_ex02OverLoading
   DEP_FILE = chapter03/ex02-overloading/CMakeFiles/ex02OverLoading.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter03/ex02-overloading/CMakeFiles/ex02OverLoading.dir
   OBJECT_FILE_DIR = chapter03/ex02-overloading/CMakeFiles/ex02OverLoading.dir
 
@@ -836,8 +825,7 @@ build chapter03/ex02-overloading/CMakeFiles/ex02OverLoading.dir/main.cpp.o: CXX_
 # Link the executable chapter03/ex02-overloading/ex02OverLoading
 
 build chapter03/ex02-overloading/ex02OverLoading: CXX_EXECUTABLE_LINKER__ex02OverLoading_Debug chapter03/ex02-overloading/CMakeFiles/ex02OverLoading.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter03/ex02-overloading/CMakeFiles/ex02OverLoading.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -849,7 +837,7 @@ build chapter03/ex02-overloading/ex02OverLoading: CXX_EXECUTABLE_LINKER__ex02Ove
 # Utility command for edit_cache
 
 build chapter03/ex02-overloading/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex02-overloading && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex02-overloading && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -860,7 +848,7 @@ build chapter03/ex02-overloading/edit_cache: phony chapter03/ex02-overloading/CM
 # Utility command for rebuild_cache
 
 build chapter03/ex02-overloading/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex02-overloading && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex02-overloading && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -883,7 +871,7 @@ build cmake_object_order_depends_target_ex03FunctionTemplate: phony || chapter03
 
 build chapter03/ex03-functionTemplate/CMakeFiles/ex03FunctionTemplate.dir/main.cpp.o: CXX_COMPILER__ex03FunctionTemplate_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/main.cpp || cmake_object_order_depends_target_ex03FunctionTemplate
   DEP_FILE = chapter03/ex03-functionTemplate/CMakeFiles/ex03FunctionTemplate.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter03/ex03-functionTemplate/CMakeFiles/ex03FunctionTemplate.dir
   OBJECT_FILE_DIR = chapter03/ex03-functionTemplate/CMakeFiles/ex03FunctionTemplate.dir
 
@@ -896,8 +884,7 @@ build chapter03/ex03-functionTemplate/CMakeFiles/ex03FunctionTemplate.dir/main.c
 # Link the executable chapter03/ex03-functionTemplate/ex03FunctionTemplate
 
 build chapter03/ex03-functionTemplate/ex03FunctionTemplate: CXX_EXECUTABLE_LINKER__ex03FunctionTemplate_Debug chapter03/ex03-functionTemplate/CMakeFiles/ex03FunctionTemplate.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter03/ex03-functionTemplate/CMakeFiles/ex03FunctionTemplate.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -909,7 +896,7 @@ build chapter03/ex03-functionTemplate/ex03FunctionTemplate: CXX_EXECUTABLE_LINKE
 # Utility command for edit_cache
 
 build chapter03/ex03-functionTemplate/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex03-functionTemplate && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex03-functionTemplate && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -920,7 +907,7 @@ build chapter03/ex03-functionTemplate/edit_cache: phony chapter03/ex03-functionT
 # Utility command for rebuild_cache
 
 build chapter03/ex03-functionTemplate/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex03-functionTemplate && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex03-functionTemplate && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -943,7 +930,7 @@ build cmake_object_order_depends_target_ex0401Namespace: phony || chapter03/ex04
 
 build chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir/main.cpp.o: CXX_COMPILER__ex0401Namespace_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/main.cpp || cmake_object_order_depends_target_ex0401Namespace
   DEP_FILE = chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir
   OBJECT_FILE_DIR = chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir
 
@@ -956,8 +943,7 @@ build chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir/main.cpp.o: CXX
 # Link the executable chapter03/ex04-01-namespace/ex0401Namespace
 
 build chapter03/ex04-01-namespace/ex0401Namespace: CXX_EXECUTABLE_LINKER__ex0401Namespace_Debug chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter03/ex04-01-namespace/CMakeFiles/ex0401Namespace.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -969,7 +955,7 @@ build chapter03/ex04-01-namespace/ex0401Namespace: CXX_EXECUTABLE_LINKER__ex0401
 # Utility command for edit_cache
 
 build chapter03/ex04-01-namespace/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-01-namespace && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-01-namespace && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -980,7 +966,7 @@ build chapter03/ex04-01-namespace/edit_cache: phony chapter03/ex04-01-namespace/
 # Utility command for rebuild_cache
 
 build chapter03/ex04-01-namespace/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-01-namespace && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-01-namespace && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1003,7 +989,7 @@ build cmake_object_order_depends_target_ex0402NestNamespace: phony || chapter03/
 
 build chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir/main.cpp.o: CXX_COMPILER__ex0402NestNamespace_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/main.cpp || cmake_object_order_depends_target_ex0402NestNamespace
   DEP_FILE = chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir
   OBJECT_FILE_DIR = chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir
 
@@ -1016,8 +1002,7 @@ build chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir/main.c
 # Link the executable chapter03/ex04-02-nest-namespace/ex0402NestNamespace
 
 build chapter03/ex04-02-nest-namespace/ex0402NestNamespace: CXX_EXECUTABLE_LINKER__ex0402NestNamespace_Debug chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter03/ex04-02-nest-namespace/CMakeFiles/ex0402NestNamespace.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1029,7 +1014,7 @@ build chapter03/ex04-02-nest-namespace/ex0402NestNamespace: CXX_EXECUTABLE_LINKE
 # Utility command for edit_cache
 
 build chapter03/ex04-02-nest-namespace/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-02-nest-namespace && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-02-nest-namespace && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1040,7 +1025,7 @@ build chapter03/ex04-02-nest-namespace/edit_cache: phony chapter03/ex04-02-nest-
 # Utility command for rebuild_cache
 
 build chapter03/ex04-02-nest-namespace/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-02-nest-namespace && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex04-02-nest-namespace && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1063,7 +1048,7 @@ build cmake_object_order_depends_target_ex05NamespacePriority: phony || chapter0
 
 build chapter03/ex05-namespace-priority/CMakeFiles/ex05NamespacePriority.dir/main.cpp.o: CXX_COMPILER__ex05NamespacePriority_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/main.cpp || cmake_object_order_depends_target_ex05NamespacePriority
   DEP_FILE = chapter03/ex05-namespace-priority/CMakeFiles/ex05NamespacePriority.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter03/ex05-namespace-priority/CMakeFiles/ex05NamespacePriority.dir
   OBJECT_FILE_DIR = chapter03/ex05-namespace-priority/CMakeFiles/ex05NamespacePriority.dir
 
@@ -1076,8 +1061,7 @@ build chapter03/ex05-namespace-priority/CMakeFiles/ex05NamespacePriority.dir/mai
 # Link the executable chapter03/ex05-namespace-priority/ex05NamespacePriority
 
 build chapter03/ex05-namespace-priority/ex05NamespacePriority: CXX_EXECUTABLE_LINKER__ex05NamespacePriority_Debug chapter03/ex05-namespace-priority/CMakeFiles/ex05NamespacePriority.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter03/ex05-namespace-priority/CMakeFiles/ex05NamespacePriority.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1089,7 +1073,7 @@ build chapter03/ex05-namespace-priority/ex05NamespacePriority: CXX_EXECUTABLE_LI
 # Utility command for edit_cache
 
 build chapter03/ex05-namespace-priority/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex05-namespace-priority && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex05-namespace-priority && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1100,7 +1084,7 @@ build chapter03/ex05-namespace-priority/edit_cache: phony chapter03/ex05-namespa
 # Utility command for rebuild_cache
 
 build chapter03/ex05-namespace-priority/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex05-namespace-priority && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter03/ex05-namespace-priority && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1117,7 +1101,7 @@ build chapter03/ex05-namespace-priority/rebuild_cache: phony chapter03/ex05-name
 # Utility command for edit_cache
 
 build chapter04/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1128,7 +1112,7 @@ build chapter04/edit_cache: phony chapter04/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build chapter04/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1151,7 +1135,7 @@ build cmake_object_order_depends_target_ex01Object: phony || chapter04/ex01-obje
 
 build chapter04/ex01-object/CMakeFiles/ex01Object.dir/main.cpp.o: CXX_COMPILER__ex01Object_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/main.cpp || cmake_object_order_depends_target_ex01Object
   DEP_FILE = chapter04/ex01-object/CMakeFiles/ex01Object.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex01-object/CMakeFiles/ex01Object.dir
   OBJECT_FILE_DIR = chapter04/ex01-object/CMakeFiles/ex01Object.dir
 
@@ -1164,8 +1148,7 @@ build chapter04/ex01-object/CMakeFiles/ex01Object.dir/main.cpp.o: CXX_COMPILER__
 # Link the executable chapter04/ex01-object/ex01Object
 
 build chapter04/ex01-object/ex01Object: CXX_EXECUTABLE_LINKER__ex01Object_Debug chapter04/ex01-object/CMakeFiles/ex01Object.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex01-object/CMakeFiles/ex01Object.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1177,7 +1160,7 @@ build chapter04/ex01-object/ex01Object: CXX_EXECUTABLE_LINKER__ex01Object_Debug 
 # Utility command for edit_cache
 
 build chapter04/ex01-object/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex01-object && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex01-object && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1188,7 +1171,7 @@ build chapter04/ex01-object/edit_cache: phony chapter04/ex01-object/CMakeFiles/e
 # Utility command for rebuild_cache
 
 build chapter04/ex01-object/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex01-object && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex01-object && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1211,7 +1194,7 @@ build cmake_object_order_depends_target_ex02cStyleCcode: phony || chapter04/ex02
 
 build chapter04/ex02-cStyleCcode/CMakeFiles/ex02cStyleCcode.dir/main.c.o: C_COMPILER__ex02cStyleCcode_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/main.c || cmake_object_order_depends_target_ex02cStyleCcode
   DEP_FILE = chapter04/ex02-cStyleCcode/CMakeFiles/ex02cStyleCcode.dir/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex02-cStyleCcode/CMakeFiles/ex02cStyleCcode.dir
   OBJECT_FILE_DIR = chapter04/ex02-cStyleCcode/CMakeFiles/ex02cStyleCcode.dir
 
@@ -1224,8 +1207,7 @@ build chapter04/ex02-cStyleCcode/CMakeFiles/ex02cStyleCcode.dir/main.c.o: C_COMP
 # Link the executable chapter04/ex02-cStyleCcode/ex02cStyleCcode
 
 build chapter04/ex02-cStyleCcode/ex02cStyleCcode: C_EXECUTABLE_LINKER__ex02cStyleCcode_Debug chapter04/ex02-cStyleCcode/CMakeFiles/ex02cStyleCcode.dir/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex02-cStyleCcode/CMakeFiles/ex02cStyleCcode.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1237,7 +1219,7 @@ build chapter04/ex02-cStyleCcode/ex02cStyleCcode: C_EXECUTABLE_LINKER__ex02cStyl
 # Utility command for edit_cache
 
 build chapter04/ex02-cStyleCcode/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex02-cStyleCcode && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex02-cStyleCcode && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1248,7 +1230,7 @@ build chapter04/ex02-cStyleCcode/edit_cache: phony chapter04/ex02-cStyleCcode/CM
 # Utility command for rebuild_cache
 
 build chapter04/ex02-cStyleCcode/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex02-cStyleCcode && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex02-cStyleCcode && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1271,7 +1253,7 @@ build cmake_object_order_depends_target_ex03classBasicGrammar: phony || chapter0
 
 build chapter04/ex03-classBasicGrammar/CMakeFiles/ex03classBasicGrammar.dir/main.cpp.o: CXX_COMPILER__ex03classBasicGrammar_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/main.cpp || cmake_object_order_depends_target_ex03classBasicGrammar
   DEP_FILE = chapter04/ex03-classBasicGrammar/CMakeFiles/ex03classBasicGrammar.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex03-classBasicGrammar/CMakeFiles/ex03classBasicGrammar.dir
   OBJECT_FILE_DIR = chapter04/ex03-classBasicGrammar/CMakeFiles/ex03classBasicGrammar.dir
 
@@ -1284,8 +1266,7 @@ build chapter04/ex03-classBasicGrammar/CMakeFiles/ex03classBasicGrammar.dir/main
 # Link the executable chapter04/ex03-classBasicGrammar/ex03classBasicGrammar
 
 build chapter04/ex03-classBasicGrammar/ex03classBasicGrammar: CXX_EXECUTABLE_LINKER__ex03classBasicGrammar_Debug chapter04/ex03-classBasicGrammar/CMakeFiles/ex03classBasicGrammar.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex03-classBasicGrammar/CMakeFiles/ex03classBasicGrammar.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1297,7 +1278,7 @@ build chapter04/ex03-classBasicGrammar/ex03classBasicGrammar: CXX_EXECUTABLE_LIN
 # Utility command for edit_cache
 
 build chapter04/ex03-classBasicGrammar/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex03-classBasicGrammar && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex03-classBasicGrammar && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1308,7 +1289,7 @@ build chapter04/ex03-classBasicGrammar/edit_cache: phony chapter04/ex03-classBas
 # Utility command for rebuild_cache
 
 build chapter04/ex03-classBasicGrammar/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex03-classBasicGrammar && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex03-classBasicGrammar && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1331,7 +1312,7 @@ build cmake_object_order_depends_target_ex04ClassConstructorDestructor: phony ||
 
 build chapter04/ex04-classConstructorDestructor/CMakeFiles/ex04ClassConstructorDestructor.dir/main.cpp.o: CXX_COMPILER__ex04ClassConstructorDestructor_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/main.cpp || cmake_object_order_depends_target_ex04ClassConstructorDestructor
   DEP_FILE = chapter04/ex04-classConstructorDestructor/CMakeFiles/ex04ClassConstructorDestructor.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex04-classConstructorDestructor/CMakeFiles/ex04ClassConstructorDestructor.dir
   OBJECT_FILE_DIR = chapter04/ex04-classConstructorDestructor/CMakeFiles/ex04ClassConstructorDestructor.dir
 
@@ -1344,8 +1325,7 @@ build chapter04/ex04-classConstructorDestructor/CMakeFiles/ex04ClassConstructorD
 # Link the executable chapter04/ex04-classConstructorDestructor/ex04ClassConstructorDestructor
 
 build chapter04/ex04-classConstructorDestructor/ex04ClassConstructorDestructor: CXX_EXECUTABLE_LINKER__ex04ClassConstructorDestructor_Debug chapter04/ex04-classConstructorDestructor/CMakeFiles/ex04ClassConstructorDestructor.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex04-classConstructorDestructor/CMakeFiles/ex04ClassConstructorDestructor.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1357,7 +1337,7 @@ build chapter04/ex04-classConstructorDestructor/ex04ClassConstructorDestructor: 
 # Utility command for edit_cache
 
 build chapter04/ex04-classConstructorDestructor/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex04-classConstructorDestructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex04-classConstructorDestructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1368,7 +1348,7 @@ build chapter04/ex04-classConstructorDestructor/edit_cache: phony chapter04/ex04
 # Utility command for rebuild_cache
 
 build chapter04/ex04-classConstructorDestructor/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex04-classConstructorDestructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex04-classConstructorDestructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1391,7 +1371,7 @@ build cmake_object_order_depends_target_ex05ClassMemberVariableReset: phony || c
 
 build chapter04/ex05-classMemberVariableReset/CMakeFiles/ex05ClassMemberVariableReset.dir/main.cpp.o: CXX_COMPILER__ex05ClassMemberVariableReset_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/main.cpp || cmake_object_order_depends_target_ex05ClassMemberVariableReset
   DEP_FILE = chapter04/ex05-classMemberVariableReset/CMakeFiles/ex05ClassMemberVariableReset.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex05-classMemberVariableReset/CMakeFiles/ex05ClassMemberVariableReset.dir
   OBJECT_FILE_DIR = chapter04/ex05-classMemberVariableReset/CMakeFiles/ex05ClassMemberVariableReset.dir
 
@@ -1404,8 +1384,7 @@ build chapter04/ex05-classMemberVariableReset/CMakeFiles/ex05ClassMemberVariable
 # Link the executable chapter04/ex05-classMemberVariableReset/ex05ClassMemberVariableReset
 
 build chapter04/ex05-classMemberVariableReset/ex05ClassMemberVariableReset: CXX_EXECUTABLE_LINKER__ex05ClassMemberVariableReset_Debug chapter04/ex05-classMemberVariableReset/CMakeFiles/ex05ClassMemberVariableReset.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex05-classMemberVariableReset/CMakeFiles/ex05ClassMemberVariableReset.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1417,7 +1396,7 @@ build chapter04/ex05-classMemberVariableReset/ex05ClassMemberVariableReset: CXX_
 # Utility command for edit_cache
 
 build chapter04/ex05-classMemberVariableReset/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex05-classMemberVariableReset && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex05-classMemberVariableReset && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1428,7 +1407,7 @@ build chapter04/ex05-classMemberVariableReset/edit_cache: phony chapter04/ex05-c
 # Utility command for rebuild_cache
 
 build chapter04/ex05-classMemberVariableReset/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex05-classMemberVariableReset && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex05-classMemberVariableReset && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1451,7 +1430,7 @@ build cmake_object_order_depends_target_ex06MultiConstructor: phony || chapter04
 
 build chapter04/ex06-multiConstructor/CMakeFiles/ex06MultiConstructor.dir/main.cpp.o: CXX_COMPILER__ex06MultiConstructor_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/main.cpp || cmake_object_order_depends_target_ex06MultiConstructor
   DEP_FILE = chapter04/ex06-multiConstructor/CMakeFiles/ex06MultiConstructor.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex06-multiConstructor/CMakeFiles/ex06MultiConstructor.dir
   OBJECT_FILE_DIR = chapter04/ex06-multiConstructor/CMakeFiles/ex06MultiConstructor.dir
 
@@ -1464,8 +1443,7 @@ build chapter04/ex06-multiConstructor/CMakeFiles/ex06MultiConstructor.dir/main.c
 # Link the executable chapter04/ex06-multiConstructor/ex06MultiConstructor
 
 build chapter04/ex06-multiConstructor/ex06MultiConstructor: CXX_EXECUTABLE_LINKER__ex06MultiConstructor_Debug chapter04/ex06-multiConstructor/CMakeFiles/ex06MultiConstructor.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex06-multiConstructor/CMakeFiles/ex06MultiConstructor.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1477,7 +1455,7 @@ build chapter04/ex06-multiConstructor/ex06MultiConstructor: CXX_EXECUTABLE_LINKE
 # Utility command for edit_cache
 
 build chapter04/ex06-multiConstructor/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex06-multiConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex06-multiConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1488,7 +1466,7 @@ build chapter04/ex06-multiConstructor/edit_cache: phony chapter04/ex06-multiCons
 # Utility command for rebuild_cache
 
 build chapter04/ex06-multiConstructor/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex06-multiConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex06-multiConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1511,7 +1489,7 @@ build cmake_object_order_depends_target_ex07ThisPointer: phony || chapter04/ex07
 
 build chapter04/ex07-thisPointer/CMakeFiles/ex07ThisPointer.dir/main.cpp.o: CXX_COMPILER__ex07ThisPointer_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/main.cpp || cmake_object_order_depends_target_ex07ThisPointer
   DEP_FILE = chapter04/ex07-thisPointer/CMakeFiles/ex07ThisPointer.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex07-thisPointer/CMakeFiles/ex07ThisPointer.dir
   OBJECT_FILE_DIR = chapter04/ex07-thisPointer/CMakeFiles/ex07ThisPointer.dir
 
@@ -1524,8 +1502,7 @@ build chapter04/ex07-thisPointer/CMakeFiles/ex07ThisPointer.dir/main.cpp.o: CXX_
 # Link the executable chapter04/ex07-thisPointer/ex07ThisPointer
 
 build chapter04/ex07-thisPointer/ex07ThisPointer: CXX_EXECUTABLE_LINKER__ex07ThisPointer_Debug chapter04/ex07-thisPointer/CMakeFiles/ex07ThisPointer.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex07-thisPointer/CMakeFiles/ex07ThisPointer.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1537,7 +1514,7 @@ build chapter04/ex07-thisPointer/ex07ThisPointer: CXX_EXECUTABLE_LINKER__ex07Thi
 # Utility command for edit_cache
 
 build chapter04/ex07-thisPointer/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex07-thisPointer && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex07-thisPointer && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1548,7 +1525,7 @@ build chapter04/ex07-thisPointer/edit_cache: phony chapter04/ex07-thisPointer/CM
 # Utility command for rebuild_cache
 
 build chapter04/ex07-thisPointer/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex07-thisPointer && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex07-thisPointer && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1571,13 +1548,13 @@ build cmake_object_order_depends_target_ExampleCMyStringStep01: phony || chapter
 
 build chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/main.cpp.o: CXX_COMPILER__ExampleCMyStringStep01_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/main.cpp || cmake_object_order_depends_target_ExampleCMyStringStep01
   DEP_FILE = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir
   OBJECT_FILE_DIR = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir
 
 build chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/CMyString.cpp.o: CXX_COMPILER__ExampleCMyStringStep01_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/CMyString.cpp || cmake_object_order_depends_target_ExampleCMyStringStep01
   DEP_FILE = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/CMyString.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir
   OBJECT_FILE_DIR = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir
 
@@ -1590,8 +1567,7 @@ build chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/CMySt
 # Link the executable chapter04/ex08-cMyStringStep01/ExampleCMyStringStep01
 
 build chapter04/ex08-cMyStringStep01/ExampleCMyStringStep01: CXX_EXECUTABLE_LINKER__ExampleCMyStringStep01_Debug chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/main.cpp.o chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir/CMyString.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex08-cMyStringStep01/CMakeFiles/ExampleCMyStringStep01.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1603,7 +1579,7 @@ build chapter04/ex08-cMyStringStep01/ExampleCMyStringStep01: CXX_EXECUTABLE_LINK
 # Utility command for edit_cache
 
 build chapter04/ex08-cMyStringStep01/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex08-cMyStringStep01 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex08-cMyStringStep01 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1614,7 +1590,7 @@ build chapter04/ex08-cMyStringStep01/edit_cache: phony chapter04/ex08-cMyStringS
 # Utility command for rebuild_cache
 
 build chapter04/ex08-cMyStringStep01/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex08-cMyStringStep01 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex08-cMyStringStep01 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1637,13 +1613,13 @@ build cmake_object_order_depends_target_ExampleCMyStringStep02: phony || chapter
 
 build chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/main.cpp.o: CXX_COMPILER__ExampleCMyStringStep02_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/main.cpp || cmake_object_order_depends_target_ExampleCMyStringStep02
   DEP_FILE = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir
   OBJECT_FILE_DIR = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir
 
 build chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/CMyString.cpp.o: CXX_COMPILER__ExampleCMyStringStep02_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/CMyString.cpp || cmake_object_order_depends_target_ExampleCMyStringStep02
   DEP_FILE = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/CMyString.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir
   OBJECT_FILE_DIR = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir
 
@@ -1656,8 +1632,7 @@ build chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/CMySt
 # Link the executable chapter04/ex09-CMyStringStep02/ExampleCMyStringStep02
 
 build chapter04/ex09-CMyStringStep02/ExampleCMyStringStep02: CXX_EXECUTABLE_LINKER__ExampleCMyStringStep02_Debug chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/main.cpp.o chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir/CMyString.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex09-CMyStringStep02/CMakeFiles/ExampleCMyStringStep02.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1669,7 +1644,7 @@ build chapter04/ex09-CMyStringStep02/ExampleCMyStringStep02: CXX_EXECUTABLE_LINK
 # Utility command for edit_cache
 
 build chapter04/ex09-CMyStringStep02/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex09-CMyStringStep02 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex09-CMyStringStep02 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1680,7 +1655,7 @@ build chapter04/ex09-CMyStringStep02/edit_cache: phony chapter04/ex09-CMyStringS
 # Utility command for rebuild_cache
 
 build chapter04/ex09-CMyStringStep02/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex09-CMyStringStep02 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex09-CMyStringStep02 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1703,7 +1678,7 @@ build cmake_object_order_depends_target_ex10StaticMember: phony || chapter04/ex1
 
 build chapter04/ex10-staticVariable/CMakeFiles/ex10StaticMember.dir/main.cpp.o: CXX_COMPILER__ex10StaticMember_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/main.cpp || cmake_object_order_depends_target_ex10StaticMember
   DEP_FILE = chapter04/ex10-staticVariable/CMakeFiles/ex10StaticMember.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex10-staticVariable/CMakeFiles/ex10StaticMember.dir
   OBJECT_FILE_DIR = chapter04/ex10-staticVariable/CMakeFiles/ex10StaticMember.dir
 
@@ -1716,8 +1691,7 @@ build chapter04/ex10-staticVariable/CMakeFiles/ex10StaticMember.dir/main.cpp.o: 
 # Link the executable chapter04/ex10-staticVariable/ex10StaticMember
 
 build chapter04/ex10-staticVariable/ex10StaticMember: CXX_EXECUTABLE_LINKER__ex10StaticMember_Debug chapter04/ex10-staticVariable/CMakeFiles/ex10StaticMember.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex10-staticVariable/CMakeFiles/ex10StaticMember.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1729,7 +1703,7 @@ build chapter04/ex10-staticVariable/ex10StaticMember: CXX_EXECUTABLE_LINKER__ex1
 # Utility command for edit_cache
 
 build chapter04/ex10-staticVariable/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex10-staticVariable && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex10-staticVariable && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1740,7 +1714,7 @@ build chapter04/ex10-staticVariable/edit_cache: phony chapter04/ex10-staticVaria
 # Utility command for rebuild_cache
 
 build chapter04/ex10-staticVariable/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex10-staticVariable && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex10-staticVariable && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1763,7 +1737,7 @@ build cmake_object_order_depends_target_ex11CopyConstructor: phony || chapter04/
 
 build chapter04/ex11-copyConstructor/CMakeFiles/ex11CopyConstructor.dir/main.cpp.o: CXX_COMPILER__ex11CopyConstructor_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/main.cpp || cmake_object_order_depends_target_ex11CopyConstructor
   DEP_FILE = chapter04/ex11-copyConstructor/CMakeFiles/ex11CopyConstructor.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex11-copyConstructor/CMakeFiles/ex11CopyConstructor.dir
   OBJECT_FILE_DIR = chapter04/ex11-copyConstructor/CMakeFiles/ex11CopyConstructor.dir
 
@@ -1776,8 +1750,7 @@ build chapter04/ex11-copyConstructor/CMakeFiles/ex11CopyConstructor.dir/main.cpp
 # Link the executable chapter04/ex11-copyConstructor/ex11CopyConstructor
 
 build chapter04/ex11-copyConstructor/ex11CopyConstructor: CXX_EXECUTABLE_LINKER__ex11CopyConstructor_Debug chapter04/ex11-copyConstructor/CMakeFiles/ex11CopyConstructor.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex11-copyConstructor/CMakeFiles/ex11CopyConstructor.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1789,7 +1762,7 @@ build chapter04/ex11-copyConstructor/ex11CopyConstructor: CXX_EXECUTABLE_LINKER_
 # Utility command for edit_cache
 
 build chapter04/ex11-copyConstructor/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex11-copyConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex11-copyConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1800,7 +1773,7 @@ build chapter04/ex11-copyConstructor/edit_cache: phony chapter04/ex11-copyConstr
 # Utility command for rebuild_cache
 
 build chapter04/ex11-copyConstructor/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex11-copyConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex11-copyConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1823,7 +1796,7 @@ build cmake_object_order_depends_target_ex12TempObjAndCopyConstructor: phony || 
 
 build chapter04/ex12-tempObjAndCopyConstructor/CMakeFiles/ex12TempObjAndCopyConstructor.dir/main.cpp.o: CXX_COMPILER__ex12TempObjAndCopyConstructor_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/main.cpp || cmake_object_order_depends_target_ex12TempObjAndCopyConstructor
   DEP_FILE = chapter04/ex12-tempObjAndCopyConstructor/CMakeFiles/ex12TempObjAndCopyConstructor.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex12-tempObjAndCopyConstructor/CMakeFiles/ex12TempObjAndCopyConstructor.dir
   OBJECT_FILE_DIR = chapter04/ex12-tempObjAndCopyConstructor/CMakeFiles/ex12TempObjAndCopyConstructor.dir
 
@@ -1836,8 +1809,7 @@ build chapter04/ex12-tempObjAndCopyConstructor/CMakeFiles/ex12TempObjAndCopyCons
 # Link the executable chapter04/ex12-tempObjAndCopyConstructor/ex12TempObjAndCopyConstructor
 
 build chapter04/ex12-tempObjAndCopyConstructor/ex12TempObjAndCopyConstructor: CXX_EXECUTABLE_LINKER__ex12TempObjAndCopyConstructor_Debug chapter04/ex12-tempObjAndCopyConstructor/CMakeFiles/ex12TempObjAndCopyConstructor.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex12-tempObjAndCopyConstructor/CMakeFiles/ex12TempObjAndCopyConstructor.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1849,7 +1821,7 @@ build chapter04/ex12-tempObjAndCopyConstructor/ex12TempObjAndCopyConstructor: CX
 # Utility command for edit_cache
 
 build chapter04/ex12-tempObjAndCopyConstructor/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex12-tempObjAndCopyConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex12-tempObjAndCopyConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1860,7 +1832,7 @@ build chapter04/ex12-tempObjAndCopyConstructor/edit_cache: phony chapter04/ex12-
 # Utility command for rebuild_cache
 
 build chapter04/ex12-tempObjAndCopyConstructor/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex12-tempObjAndCopyConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex12-tempObjAndCopyConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1883,7 +1855,7 @@ build cmake_object_order_depends_target_ex13DeepCopyAndShallowCopy: phony || cha
 
 build chapter04/ex13-deepCopyAndShallowCopy/CMakeFiles/ex13DeepCopyAndShallowCopy.dir/main.cpp.o: CXX_COMPILER__ex13DeepCopyAndShallowCopy_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/main.cpp || cmake_object_order_depends_target_ex13DeepCopyAndShallowCopy
   DEP_FILE = chapter04/ex13-deepCopyAndShallowCopy/CMakeFiles/ex13DeepCopyAndShallowCopy.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex13-deepCopyAndShallowCopy/CMakeFiles/ex13DeepCopyAndShallowCopy.dir
   OBJECT_FILE_DIR = chapter04/ex13-deepCopyAndShallowCopy/CMakeFiles/ex13DeepCopyAndShallowCopy.dir
 
@@ -1896,8 +1868,7 @@ build chapter04/ex13-deepCopyAndShallowCopy/CMakeFiles/ex13DeepCopyAndShallowCop
 # Link the executable chapter04/ex13-deepCopyAndShallowCopy/ex13DeepCopyAndShallowCopy
 
 build chapter04/ex13-deepCopyAndShallowCopy/ex13DeepCopyAndShallowCopy: CXX_EXECUTABLE_LINKER__ex13DeepCopyAndShallowCopy_Debug chapter04/ex13-deepCopyAndShallowCopy/CMakeFiles/ex13DeepCopyAndShallowCopy.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex13-deepCopyAndShallowCopy/CMakeFiles/ex13DeepCopyAndShallowCopy.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1909,7 +1880,7 @@ build chapter04/ex13-deepCopyAndShallowCopy/ex13DeepCopyAndShallowCopy: CXX_EXEC
 # Utility command for edit_cache
 
 build chapter04/ex13-deepCopyAndShallowCopy/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex13-deepCopyAndShallowCopy && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex13-deepCopyAndShallowCopy && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1920,7 +1891,7 @@ build chapter04/ex13-deepCopyAndShallowCopy/edit_cache: phony chapter04/ex13-dee
 # Utility command for rebuild_cache
 
 build chapter04/ex13-deepCopyAndShallowCopy/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex13-deepCopyAndShallowCopy && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex13-deepCopyAndShallowCopy && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1943,13 +1914,13 @@ build cmake_object_order_depends_target_ExampleCMyStringStep03: phony || chapter
 
 build chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/main.cpp.o: CXX_COMPILER__ExampleCMyStringStep03_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/main.cpp || cmake_object_order_depends_target_ExampleCMyStringStep03
   DEP_FILE = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir
   OBJECT_FILE_DIR = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir
 
 build chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/CMyString.cpp.o: CXX_COMPILER__ExampleCMyStringStep03_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/CMyString.cpp || cmake_object_order_depends_target_ExampleCMyStringStep03
   DEP_FILE = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/CMyString.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir
   OBJECT_FILE_DIR = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir
 
@@ -1962,8 +1933,7 @@ build chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/CMySt
 # Link the executable chapter04/ex14-CMyStringStep03/ExampleCMyStringStep03
 
 build chapter04/ex14-CMyStringStep03/ExampleCMyStringStep03: CXX_EXECUTABLE_LINKER__ExampleCMyStringStep03_Debug chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/main.cpp.o chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir/CMyString.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
-  LINK_FLAGS = -L/opt/homebrew/opt/opencv@3/lib
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = chapter04/ex14-CMyStringStep03/CMakeFiles/ExampleCMyStringStep03.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1975,7 +1945,7 @@ build chapter04/ex14-CMyStringStep03/ExampleCMyStringStep03: CXX_EXECUTABLE_LINK
 # Utility command for edit_cache
 
 build chapter04/ex14-CMyStringStep03/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex14-CMyStringStep03 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex14-CMyStringStep03 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1986,12 +1956,71 @@ build chapter04/ex14-CMyStringStep03/edit_cache: phony chapter04/ex14-CMyStringS
 # Utility command for rebuild_cache
 
 build chapter04/ex14-CMyStringStep03/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex14-CMyStringStep03 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex14-CMyStringStep03 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build chapter04/ex14-CMyStringStep03/rebuild_cache: phony chapter04/ex14-CMyStringStep03/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex15ConversionConstructor
+
+
+#############################################
+# Order-only phony target for ex15ConversionConstructor
+
+build cmake_object_order_depends_target_ex15ConversionConstructor: phony || chapter04/ex15-conversionConstructor/CMakeFiles/ex15ConversionConstructor.dir
+
+build chapter04/ex15-conversionConstructor/CMakeFiles/ex15ConversionConstructor.dir/main.cpp.o: CXX_COMPILER__ex15ConversionConstructor_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex15-conversionConstructor/main.cpp || cmake_object_order_depends_target_ex15ConversionConstructor
+  DEP_FILE = chapter04/ex15-conversionConstructor/CMakeFiles/ex15ConversionConstructor.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = chapter04/ex15-conversionConstructor/CMakeFiles/ex15ConversionConstructor.dir
+  OBJECT_FILE_DIR = chapter04/ex15-conversionConstructor/CMakeFiles/ex15ConversionConstructor.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex15ConversionConstructor
+
+
+#############################################
+# Link the executable chapter04/ex15-conversionConstructor/ex15ConversionConstructor
+
+build chapter04/ex15-conversionConstructor/ex15ConversionConstructor: CXX_EXECUTABLE_LINKER__ex15ConversionConstructor_Debug chapter04/ex15-conversionConstructor/CMakeFiles/ex15ConversionConstructor.dir/main.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = chapter04/ex15-conversionConstructor/CMakeFiles/ex15ConversionConstructor.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter04/ex15-conversionConstructor/ex15ConversionConstructor
+  TARGET_PDB = ex15ConversionConstructor.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter04/ex15-conversionConstructor/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex15-conversionConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter04/ex15-conversionConstructor/edit_cache: phony chapter04/ex15-conversionConstructor/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter04/ex15-conversionConstructor/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex15-conversionConstructor && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter04/ex15-conversionConstructor/rebuild_cache: phony chapter04/ex15-conversionConstructor/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -2055,6 +2084,8 @@ build ex11CopyConstructor: phony chapter04/ex11-copyConstructor/ex11CopyConstruc
 build ex12TempObjAndCopyConstructor: phony chapter04/ex12-tempObjAndCopyConstructor/ex12TempObjAndCopyConstructor
 
 build ex13DeepCopyAndShallowCopy: phony chapter04/ex13-deepCopyAndShallowCopy/ex13DeepCopyAndShallowCopy
+
+build ex15ConversionConstructor: phony chapter04/ex15-conversionConstructor/ex15ConversionConstructor
 
 # =============================================================================
 # Folder targets.
@@ -2204,7 +2235,7 @@ build chapter03/ex05-namespace-priority/all: phony chapter03/ex05-namespace-prio
 #############################################
 # Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04
 
-build chapter04/all: phony chapter04/ex01-object/all chapter04/ex02-cStyleCcode/all chapter04/ex03-classBasicGrammar/all chapter04/ex04-classConstructorDestructor/all chapter04/ex05-classMemberVariableReset/all chapter04/ex06-multiConstructor/all chapter04/ex07-thisPointer/all chapter04/ex08-cMyStringStep01/all chapter04/ex09-CMyStringStep02/all chapter04/ex10-staticVariable/all chapter04/ex11-copyConstructor/all chapter04/ex12-tempObjAndCopyConstructor/all chapter04/ex13-deepCopyAndShallowCopy/all chapter04/ex14-CMyStringStep03/all
+build chapter04/all: phony chapter04/ex01-object/all chapter04/ex02-cStyleCcode/all chapter04/ex03-classBasicGrammar/all chapter04/ex04-classConstructorDestructor/all chapter04/ex05-classMemberVariableReset/all chapter04/ex06-multiConstructor/all chapter04/ex07-thisPointer/all chapter04/ex08-cMyStringStep01/all chapter04/ex09-CMyStringStep02/all chapter04/ex10-staticVariable/all chapter04/ex11-copyConstructor/all chapter04/ex12-tempObjAndCopyConstructor/all chapter04/ex13-deepCopyAndShallowCopy/all chapter04/ex14-CMyStringStep03/all chapter04/ex15-conversionConstructor/all
 
 # =============================================================================
 
@@ -2305,6 +2336,13 @@ build chapter04/ex13-deepCopyAndShallowCopy/all: phony chapter04/ex13-deepCopyAn
 build chapter04/ex14-CMyStringStep03/all: phony chapter04/ex14-CMyStringStep03/ExampleCMyStringStep03
 
 # =============================================================================
+
+#############################################
+# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter04/ex15-conversionConstructor
+
+build chapter04/ex15-conversionConstructor/all: phony chapter04/ex15-conversionConstructor/ex15ConversionConstructor
+
+# =============================================================================
 # Unknown Build Time Dependencies.
 # Tell Ninja that they may appear as side effects of build rules
 # otherwise ordered by order-only dependencies.
@@ -2316,14 +2354,14 @@ build chapter04/ex14-CMyStringStep03/all: phony chapter04/ex14-CMyStringStep03/E
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex15-conversionConstructor/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex15-conversionConstructor/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################
