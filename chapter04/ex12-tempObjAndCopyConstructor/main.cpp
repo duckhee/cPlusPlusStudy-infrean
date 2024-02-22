@@ -27,6 +27,12 @@ public:
         nData = data;
     }
 
+    /** chain 형태로 설정이 가능 하도록 자기 자신에 대한 instance 주소를 반환하는 형식이다. */
+    TestData set(const int data) {
+        nData = data;
+        return *this;
+    }
+
 private:
     int nData = 0;
 };
@@ -56,6 +62,8 @@ int main() {
     TestData result = testFunc(10);
     /** 다음과 같이 임시 객체를 선언해서 사용을 하면 main 함수가 종료가 되면 반환이 된다. */
     result.setData(100);
+    /** chain 형식으로 객체에 값 변경 및 추가 Method 호출 */
+    cout << result.set(20).getData() << endl;
 //    testFunc(30).setData(200);
     /** 참조자를 이용해서 함수의 매개변수를 받는 것이 좋다. -> 임시 객체를 넘겨줄 수 없다. */
 //    TestData result1 = testFuncUsingReference(TestData(10));
