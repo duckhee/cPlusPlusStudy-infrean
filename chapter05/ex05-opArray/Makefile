@@ -4,9 +4,9 @@ SRCS = main.cpp
 
 BUILD_DIR = buildDir
 
-TARGET = ex04OperatorFunctionRedefine
-
 CPP_FLAGS = -std=c++14
+
+TARGET = ex05opArray
 
 CPPOBJS = $(addprefix $(BUILD_DIR)/, $(SRCS:.cpp=.o))
 
