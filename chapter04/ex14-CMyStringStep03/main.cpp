@@ -15,4 +15,3 @@ int main() {
     cout << "length : " << world.getLength() << endl;
 
     return 0;
-}
