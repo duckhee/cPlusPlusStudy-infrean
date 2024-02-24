@@ -83,6 +83,7 @@ int CMyString::appendData(const char *pParam) {
 /** 단순 대입 연산자를 deep copy 해주기 위한 operator 재정의 */
 CMyString &CMyString::operator=(const CMyString &rhs) {
     this->setData(rhs.getData());
+    return *this;
 }
 
 /** 이동 단순 대입 연산자 */
@@ -90,6 +91,7 @@ CMyString &CMyString::operator=(CMyString &&rhs) noexcept {
     cout << "operator=(CMyString&&) - move" << endl;
     this->m_pszData = rhs.m_pszData;
     rhs.m_pszData = nullptr;
+    return *this;
 }
 
 /** 형 변환에 대한 재정의 -> 객체 instance 의 이름을 불렀을 때 형 변환에 대해서 재정의 */
