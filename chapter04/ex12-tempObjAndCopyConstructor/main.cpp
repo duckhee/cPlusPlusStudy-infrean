@@ -53,7 +53,7 @@ TestData testFuncUsingReference(TestData &rhs) {
 
 TestData testFuncUsingReferenceReadOnly(const TestData &rhs) {
     cout << "testFuncUsingReference()" << endl;
-    cout << "testFuncUsingReferenceReadOnly() : rhs nData = " << rhs.getData() << endl;
+    cout << "testFuncUsingReferenceReadOnly() : rhs pData = " << rhs.getData() << endl;
     return rhs;
 }
 

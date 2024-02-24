@@ -7,17 +7,17 @@ class MyData {
 public:
     /** 생성자 정의 -> 명시적 호출에 의해서 호출이 되는 함수가 아니다. 반환 자료가 없다 */
     /** 생성자의 역활은 멤버 초기화 코드와 실패할 가능성이 없는 코드만 있는 것이 좋다.  */
-    MyData(int nParam) : nData(nParam) {}
+    MyData(int nParam) : pData(nParam) {}
 
-    MyData(int x, int y) : nData(x + y) {}
+    MyData(int x, int y) : pData(x + y) {}
 
     /** Method 이다 -> class 의 함수를 의미 한다. */
     int getData() {
-        return nData;
+        return pData;
     }
 /** 외부 접근이 불가능 하다.*/
 private:
-    int nData;
+    int pData;
 };
 
 class MyPoint {

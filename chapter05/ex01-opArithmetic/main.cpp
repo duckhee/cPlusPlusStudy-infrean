@@ -5,12 +5,12 @@ using namespace std;
 class MyData {
 public:
     /** 변환 생성자 -> 매개변수를 하나 가지고 있는 생성자를 의미한다. */
-    MyData(int param) : nData(param) {
+    MyData(int param) : pData(param) {
         cout << "MyData(int)" << endl;
     }
 
     /** 복사 생성자 -> 임시 객체를 생성하지 않도록 하기 위해서는 explicit 를 써줘야한다. */
-    MyData(const MyData &rhs) : nData(rhs.nData) {
+    MyData(const MyData &rhs) : pData(rhs.pData) {
         cout << "MyData(const MyData&)" << endl;
     }
 
@@ -18,7 +18,7 @@ public:
     MyData operator+(const MyData &rhs) const {
         cout << "operator+" << endl;
         MyData retVal(0);
-        retVal.nData = this->nData + rhs.nData;
+        retVal.pData = this->pData + rhs.pData;
         return retVal;
     }
 
@@ -27,16 +27,16 @@ public:
     MyData &operator=(const MyData &rhs) {
 //    void operator=(const MyData &rhs) {
         cout << "operator=" << endl;
-        nData = rhs.nData;
+        pData = rhs.pData;
         return *this;
     }
 
     int getData() const {
-        return this->nData;
+        return this->pData;
     }
 
 private:
-    int nData;
+    int pData;
 };
 
 /** 전역 함수로 instance 연산에 대해서 operator + 에 대해서 정의한다. */

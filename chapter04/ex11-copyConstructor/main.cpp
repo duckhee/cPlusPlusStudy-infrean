@@ -9,20 +9,20 @@ public:
     }
 
     /** 복사 생성자 */
-    MyData(MyData &rhs) : nData(rhs.nData) {
+    MyData(MyData &rhs) : pData(rhs.pData) {
         cout << "MyData(MyData &rhs)" << endl;
     }
 
     void setData(const int data) {
-        this->nData = data;
+        this->pData = data;
     }
 
      int getData() const {
-        return this->nData;
+        return this->pData;
     }
 
 private:
-    int nData = 0;
+    int pData = 0;
 };
 
 int main() {

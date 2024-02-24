@@ -5,7 +5,7 @@ using namespace std;
 class TestData {
 public:
     /** 매개변수를 가지고 있는 생성자를 변환 생성자라고 한다. */
-//    TestData(int nParam) : nData(nParam) {
+//    TestData(int nParam) : pData(nParam) {
 //        cout << "TestData(int)" << endl;
 //    }
     /** 묵시적으로 임시 객체가 생성되지 않도록 막아주는 키워드 -> explicit 를 사용하면 변환 생성자를 통해서 묵시적 임시객체가 생성되지 않도록 해준다. */
