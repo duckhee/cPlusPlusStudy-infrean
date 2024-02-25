@@ -19,7 +19,7 @@ public:
     void setData(const int data) {
         this->nData = data;
     }
-/** 상송 관계에서 접근이 가능하다. */
+/** 상속 관계에서 접근이 가능하다. */
 protected:
     void printData() {
 
@@ -63,6 +63,7 @@ int main() {
     delete pData;
     /** 기본 형식으로 참조하는 것도 포인터 처럼 접근이 가능하다. */
     MyDataEx extData;
+    /** 기본 형식에 대한 reference 참조 */
     MyData &rData = extData;
     rData.getData();
     return 0;
