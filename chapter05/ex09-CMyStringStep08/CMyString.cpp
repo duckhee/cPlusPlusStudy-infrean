@@ -56,7 +56,7 @@ int CMyString::appendData(const char *pParam) {
     char *pResult = new char[this->m_length + paramLength];
     memset(pResult, '\0', (this->m_length + paramLength));
     strcpy(pResult, this->m_pszData);
-    strcat(pResult + paramLength, pParam);
+    strcat(pResult + this->m_length-1, pParam);
     delete[] m_pszData;
     m_pszData = pResult;
     m_length += paramLength;
