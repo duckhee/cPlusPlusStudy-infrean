@@ -21,6 +21,7 @@ int main() {
 
     /** 강제로 c 형 변환 -> 만약 기본 형식에 대한 값을 강제로 파생 형식으로 형 변환 시에는 값이 깨져서 나오게 된다. */
     MyDataEx *pDataEx = reinterpret_cast<MyDataEx *>(pData);
+//    MyDataEx *pDataEx = (MyDataEx *) pData;
     cout << typeid(pDataEx).name() << endl;
 
     cout << typeid(*pDataEx).name() << endl;
