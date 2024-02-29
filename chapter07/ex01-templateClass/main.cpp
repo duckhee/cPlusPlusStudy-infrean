@@ -28,6 +28,10 @@ public:
     TestData(int param) {
         cout << "TestData" << endl;
     }
+
+    operator char *() const {
+        return "TestData";
+    }
 };
 
 int main() {
@@ -39,5 +43,7 @@ int main() {
     cout << b << endl;
     /** 특정 클래스에 대해서 class template 형식으로 입력을 받을 수 있다. */
     MyData<TestData> c(15);
+    /** class 에 대한 형에 대한 operator 정의를 해주어야한다. */
+    cout << c.getData() << endl;
     return 0;
 }
