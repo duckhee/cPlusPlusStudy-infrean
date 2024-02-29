@@ -15,12 +15,14 @@ public:
     }
 
     /** 값을 지정해서 사용 하는 r-value 를 부를 때 사용이 되는 배열 연산자 재정의 */
+    /** 여기서 arr[3]으로 접근 하는 것에 대해서 정의 */
     int operator[](const int index) const {
         cout << "operator[] const" << endl;
         return pBuffer[index];
     }
 
     /** 배열 연산자 재정의 -> 여기서는 for 문에서 접근 하는 과정에서 호출이 된다. */
+    /** 배열 요소에 대한 값을 대입하는데 사용이 된다. */
     int &operator[](const int index) {
         cout << "operator[]" << endl;
         return pBuffer[index];
@@ -38,6 +40,7 @@ void testFunc(const IntArray &arr) {
 
 int main() {
     IntArray arr(5);
+
     for (int i = 0; i < 5; ++i) {
         arr[i] = i * 10;
     }
