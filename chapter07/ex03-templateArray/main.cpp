@@ -67,7 +67,7 @@ public:
     }
 
     /** 배열에 대한 연산 재정의 -> r-value */
-    T &operator[](int nIndex) const {
+    T operator[](int nIndex) const {
         return operator[](nIndex);
     }
 
