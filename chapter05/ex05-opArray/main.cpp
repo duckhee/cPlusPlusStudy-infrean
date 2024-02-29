@@ -20,7 +20,7 @@ public:
         return pBuffer[index];
     }
 
-    /** 배열 연산자 재정의 -> 여기서는 for 문에서 접근 하는 과정에서 호출이 도니다. */
+    /** 배열 연산자 재정의 -> 여기서는 for 문에서 접근 하는 과정에서 호출이 된다. */
     int &operator[](const int index) {
         cout << "operator[]" << endl;
         return pBuffer[index];
