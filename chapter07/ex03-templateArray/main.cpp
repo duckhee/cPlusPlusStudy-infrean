@@ -81,6 +81,37 @@ private:
     int m_nSize = 0;
 };
 
+/** 정적 멤버 벼수 사용과 선언과 정의 분리 -> template */
+template<typename T>
+class Test {
+public:
+    Test();
+
+    ~Test();
+
+    T testFunc();
+
+protected:
+    /** 정적 멤버 데이터 선언 */
+    static T m_ndata;
+};
+
+/** Test 정의 */
+template<typename T>
+Test<T>::Test() {}
+
+template<typename T>
+Test<T>::~Test() {}
+
+template<typename T>
+T Test<T>::testFunc() {
+    return m_ndata;
+}
+
+/** 정적 멤버 변수 정의 */
+template<typename T>
+T Test<T>::m_ndata = 15;
+
 int main() {
     // int 자료형 배열
     CMyArray<int> arr(5);
@@ -103,5 +134,9 @@ int main() {
 
     cout << endl;
     cout << arr[0] << endl;
+
+    /** 정적 멤버 변수 템플릿 */
+    Test<double> test;
+    cout << test.testFunc() << endl;
     return 0;
 }
