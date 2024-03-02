@@ -31,7 +31,11 @@ const char *UserData::getKey(void) {
 }
 
 void UserData::printNode(void) {
-    printf("[%p] %s\t%s\r\n [%p]\r\n", this, this->szName, this->szPhone, this->getNext());
+#ifdef _DEBUG
+    printf("[%p] %s\t%s [%p]\r\n", this, this->szName, this->szPhone, this->getNext());
+#else
+    printf("%s\t%s\r\n", this->szName, this->szPhone);
+#endif
 }
 
 const char *UserData::getName(void) const {

@@ -18,9 +18,9 @@ void UserInterface::add() {
     char szPhone[32] = {'\0'};
 
     printf("Input name : ");
-    fgets(szName, sizeof(szName), stdin);
+    scanf("%s", szName);
     printf("Input phone number : ");
-    fgets(szPhone, sizeof(szPhone), stdin);
+    scanf("%s", szPhone);
 
     UserData *pNewUser = new UserData(szName, szPhone);
     m_list.addNewNode(pNewUser);
@@ -39,7 +39,7 @@ void UserInterface::search() {
     char szName[32] = {'\0'};
     UserData *pNode = NULL;
     printf("Input name : ");
-    fgets(szName, sizeof(szName), stdin);
+    scanf("%s", szName);
     pNode = static_cast<UserData *>(m_list.findNode(szName));
     if (pNode != NULL) {
         printf("[%p] %s\t%s [%p]\r\n", pNode, pNode->getName(), pNode->getPhone(), pNode->getNext());
@@ -63,10 +63,8 @@ void UserInterface::remove() {
 
 int UserInterface::run() {
     int nMenu = 0;
-    while ((nMenu = printUI()) != 0)
-    {
-        switch (nMenu)
-        {
+    while ((nMenu = printUI()) != 0) {
+        switch (nMenu) {
             case 1:    //Add
                 add();
                 break;
