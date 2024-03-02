@@ -52,7 +52,7 @@ void CUserInterface::search(void) {
                pNode->getName(), pNode->getPhone(),
                pNode->getNext());
     } else
-        puts("ERROR: µ•¿Ã≈Õ∏¶ √£¿ª ºˆ æ¯Ω¿¥œ¥Ÿ.");
+        puts("ERROR: 해당되는 이름은 존재하지 않습니다.");
 
     getchar();
 }
@@ -64,9 +64,9 @@ void CUserInterface::remove(void) {
     fgets(szName, sizeof(szName), stdin);
 
     if (m_list.removeNode(szName))
-        puts("ªË¡¶øœ∑·.");
+        puts("삭제 되었습니다.");
     else
-        puts("ERROR: ªË¡¶«“ µ•¿Ã≈Õ∏¶ √£¿ª ºˆ æ¯Ω¿¥œ¥Ÿ.");
+        puts("ERROR: ª해당되는 이름이 없습니다.");
     getchar();
 }
 

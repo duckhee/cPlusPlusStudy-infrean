@@ -19,8 +19,8 @@ public:
     static int getUserDataCounter(void) { return nUserDataCounter; }
 
 protected:
-    char szName[32];   // ¿Ã∏ß
-    char szPhone[32];  // ¿¸»≠π¯»£
+    char szName[32];   // 이름
+    char szPhone[32];  // 핸드폰 번호
 
     CUserData *pNext;
 
