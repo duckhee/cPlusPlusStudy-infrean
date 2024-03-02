@@ -10,12 +10,12 @@ public:
 
     void printData() {
         /** aata 를 출력하는 방법 4 가지 */
-        cout << "data call - " << data << endl;
+        cout << "control call - " << data << endl;
         /** 이 부분에서는 정적인지 정적이 아닌지를 따지게 된다. */
-        cout << "data call - " << MyData::data << endl;
+        cout << "control call - " << MyData::data << endl;
         /** this 는 인스턴스의 자기 자신의 주소를 가르킨다. */
-        cout << "data call - " << this->data << endl;
-        cout << "data call - " << this->MyData::data << endl;
+        cout << "control call - " << this->data << endl;
+        cout << "control call - " << this->MyData::data << endl;
     }
 
 private:

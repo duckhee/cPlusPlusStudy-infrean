@@ -58,7 +58,7 @@ int main() {
     /** 추상 자료형으로 접근 하면, 파생형식을 접근에 기능에 접근이 안된다. */
 //    pData->testFunc();
     /** 현재는 단순 참조하는 역활이므로 메모리 해제를 해주지 않아도 된다. shallow copy 형태이다. */
-//    MyData *pData = &data;
+//    MyData *pData = &control;
     cout << pData->getData() << endl;
     delete pData;
     /** 기본 형식으로 참조하는 것도 포인터 처럼 접근이 가능하다. */

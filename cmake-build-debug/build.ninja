@@ -5198,6 +5198,307 @@ build chapter08/ex05-memoryErrorClass/CMakeFiles/rebuild_cache.util: CUSTOM_COMM
 build chapter08/ex05-memoryErrorClass/rebuild_cache: phony chapter08/ex05-memoryErrorClass/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter09/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter09/edit_cache: phony chapter09/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter09/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09 && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter09/rebuild_cache: phony chapter09/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex01BasicObject
+
+
+#############################################
+# Order-only phony target for ex01BasicObject
+
+build cmake_object_order_depends_target_ex01BasicObject: phony || cmake_object_order_depends_target_ex01DataControl cmake_object_order_depends_target_ex01UserData cmake_object_order_depends_target_ex01UserInterface
+
+build chapter09/ex01-basicObject/CMakeFiles/ex01BasicObject.dir/main.cpp.o: CXX_COMPILER__ex01BasicObject_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/main.cpp || cmake_object_order_depends_target_ex01BasicObject
+  DEP_FILE = chapter09/ex01-basicObject/CMakeFiles/ex01BasicObject.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userData/inc -I/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userInterface/inc -I/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/control/inc
+  OBJECT_DIR = chapter09/ex01-basicObject/CMakeFiles/ex01BasicObject.dir
+  OBJECT_FILE_DIR = chapter09/ex01-basicObject/CMakeFiles/ex01BasicObject.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex01BasicObject
+
+
+#############################################
+# Link the executable chapter09/ex01-basicObject/ex01BasicObject
+
+build chapter09/ex01-basicObject/ex01BasicObject: CXX_EXECUTABLE_LINKER__ex01BasicObject_Debug chapter09/ex01-basicObject/CMakeFiles/ex01BasicObject.dir/main.cpp.o | chapter09/ex01-basicObject/lib/userData/libex01UserData.a chapter09/ex01-basicObject/lib/userInterface/libex01UserInterface.a chapter09/ex01-basicObject/lib/control/libex01DataControl.a chapter09/ex01-basicObject/lib/userData/libex01UserData.a || chapter09/ex01-basicObject/lib/control/libex01DataControl.a chapter09/ex01-basicObject/lib/userData/libex01UserData.a chapter09/ex01-basicObject/lib/userInterface/libex01UserInterface.a
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userData/inc -Wl,-rpath,/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userInterface/inc -Wl,-rpath,/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/control/inc  chapter09/ex01-basicObject/lib/userData/libex01UserData.a  chapter09/ex01-basicObject/lib/userInterface/libex01UserInterface.a  chapter09/ex01-basicObject/lib/control/libex01DataControl.a  chapter09/ex01-basicObject/lib/userData/libex01UserData.a
+  LINK_PATH = -L/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userData/inc   -L/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userInterface/inc   -L/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/control/inc
+  OBJECT_DIR = chapter09/ex01-basicObject/CMakeFiles/ex01BasicObject.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter09/ex01-basicObject/ex01BasicObject
+  TARGET_PDB = ex01BasicObject.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter09/ex01-basicObject/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter09/ex01-basicObject/edit_cache: phony chapter09/ex01-basicObject/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter09/ex01-basicObject/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter09/ex01-basicObject/rebuild_cache: phony chapter09/ex01-basicObject/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter09/ex01-basicObject/lib/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject/lib && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter09/ex01-basicObject/lib/edit_cache: phony chapter09/ex01-basicObject/lib/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter09/ex01-basicObject/lib/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject/lib && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter09/ex01-basicObject/lib/rebuild_cache: phony chapter09/ex01-basicObject/lib/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target ex01DataControl
+
+
+#############################################
+# Order-only phony target for ex01DataControl
+
+build cmake_object_order_depends_target_ex01DataControl: phony || cmake_object_order_depends_target_ex01UserData
+
+build chapter09/ex01-basicObject/lib/control/CMakeFiles/ex01DataControl.dir/src/myList.cpp.o: CXX_COMPILER__ex01DataControl_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/control/src/myList.cpp || cmake_object_order_depends_target_ex01DataControl
+  DEP_FILE = chapter09/ex01-basicObject/lib/control/CMakeFiles/ex01DataControl.dir/src/myList.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/control/inc -I/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userData/inc
+  OBJECT_DIR = chapter09/ex01-basicObject/lib/control/CMakeFiles/ex01DataControl.dir
+  OBJECT_FILE_DIR = chapter09/ex01-basicObject/lib/control/CMakeFiles/ex01DataControl.dir/src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target ex01DataControl
+
+
+#############################################
+# Link the static library chapter09/ex01-basicObject/lib/control/libex01DataControl.a
+
+build chapter09/ex01-basicObject/lib/control/libex01DataControl.a: CXX_STATIC_LIBRARY_LINKER__ex01DataControl_Debug chapter09/ex01-basicObject/lib/control/CMakeFiles/ex01DataControl.dir/src/myList.cpp.o || chapter09/ex01-basicObject/lib/userData/libex01UserData.a
+  ARCH_FLAGS = -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = chapter09/ex01-basicObject/lib/control/CMakeFiles/ex01DataControl.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter09/ex01-basicObject/lib/control/libex01DataControl.a
+  TARGET_PDB = ex01DataControl.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter09/ex01-basicObject/lib/control/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject/lib/control && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter09/ex01-basicObject/lib/control/edit_cache: phony chapter09/ex01-basicObject/lib/control/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter09/ex01-basicObject/lib/control/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject/lib/control && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter09/ex01-basicObject/lib/control/rebuild_cache: phony chapter09/ex01-basicObject/lib/control/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target ex01UserData
+
+
+#############################################
+# Order-only phony target for ex01UserData
+
+build cmake_object_order_depends_target_ex01UserData: phony || chapter09/ex01-basicObject/lib/userData/CMakeFiles/ex01UserData.dir
+
+build chapter09/ex01-basicObject/lib/userData/CMakeFiles/ex01UserData.dir/src/userData.cpp.o: CXX_COMPILER__ex01UserData_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userData/src/userData.cpp || cmake_object_order_depends_target_ex01UserData
+  DEP_FILE = chapter09/ex01-basicObject/lib/userData/CMakeFiles/ex01UserData.dir/src/userData.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userData/inc
+  OBJECT_DIR = chapter09/ex01-basicObject/lib/userData/CMakeFiles/ex01UserData.dir
+  OBJECT_FILE_DIR = chapter09/ex01-basicObject/lib/userData/CMakeFiles/ex01UserData.dir/src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target ex01UserData
+
+
+#############################################
+# Link the static library chapter09/ex01-basicObject/lib/userData/libex01UserData.a
+
+build chapter09/ex01-basicObject/lib/userData/libex01UserData.a: CXX_STATIC_LIBRARY_LINKER__ex01UserData_Debug chapter09/ex01-basicObject/lib/userData/CMakeFiles/ex01UserData.dir/src/userData.cpp.o
+  ARCH_FLAGS = -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = chapter09/ex01-basicObject/lib/userData/CMakeFiles/ex01UserData.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter09/ex01-basicObject/lib/userData/libex01UserData.a
+  TARGET_PDB = ex01UserData.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter09/ex01-basicObject/lib/userData/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject/lib/userData && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter09/ex01-basicObject/lib/userData/edit_cache: phony chapter09/ex01-basicObject/lib/userData/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter09/ex01-basicObject/lib/userData/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject/lib/userData && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter09/ex01-basicObject/lib/userData/rebuild_cache: phony chapter09/ex01-basicObject/lib/userData/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target ex01UserInterface
+
+
+#############################################
+# Order-only phony target for ex01UserInterface
+
+build cmake_object_order_depends_target_ex01UserInterface: phony || cmake_object_order_depends_target_ex01DataControl cmake_object_order_depends_target_ex01UserData
+
+build chapter09/ex01-basicObject/lib/userInterface/CMakeFiles/ex01UserInterface.dir/src/userInterface.cpp.o: CXX_COMPILER__ex01UserInterface_unscanned_Debug /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userInterface/src/userInterface.cpp || cmake_object_order_depends_target_ex01UserInterface
+  DEP_FILE = chapter09/ex01-basicObject/lib/userInterface/CMakeFiles/ex01UserInterface.dir/src/userInterface.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userInterface/inc -I/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/control/inc -I/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userData/inc
+  OBJECT_DIR = chapter09/ex01-basicObject/lib/userInterface/CMakeFiles/ex01UserInterface.dir
+  OBJECT_FILE_DIR = chapter09/ex01-basicObject/lib/userInterface/CMakeFiles/ex01UserInterface.dir/src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target ex01UserInterface
+
+
+#############################################
+# Link the static library chapter09/ex01-basicObject/lib/userInterface/libex01UserInterface.a
+
+build chapter09/ex01-basicObject/lib/userInterface/libex01UserInterface.a: CXX_STATIC_LIBRARY_LINKER__ex01UserInterface_Debug chapter09/ex01-basicObject/lib/userInterface/CMakeFiles/ex01UserInterface.dir/src/userInterface.cpp.o || chapter09/ex01-basicObject/lib/control/libex01DataControl.a chapter09/ex01-basicObject/lib/userData/libex01UserData.a
+  ARCH_FLAGS = -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = chapter09/ex01-basicObject/lib/userInterface/CMakeFiles/ex01UserInterface.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chapter09/ex01-basicObject/lib/userInterface/libex01UserInterface.a
+  TARGET_PDB = ex01UserInterface.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter09/ex01-basicObject/lib/userInterface/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject/lib/userInterface && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter09/ex01-basicObject/lib/userInterface/edit_cache: phony chapter09/ex01-basicObject/lib/userInterface/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter09/ex01-basicObject/lib/userInterface/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject/lib/userInterface && /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean -B/Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter09/ex01-basicObject/lib/userInterface/rebuild_cache: phony chapter09/ex01-basicObject/lib/userInterface/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build ExampleCMyStringStep01: phony chapter04/ex08-cMyStringStep01/ExampleCMyStringStep01
@@ -5230,6 +5531,10 @@ build ex0102GotoErrorHandling: phony chapter08/ex01_02-gotoErrorHandle/ex0102Got
 
 build ex0103TryCatchErrorHandling: phony chapter08/ex01_03-tryThrowCatch/ex0103TryCatchErrorHandling
 
+build ex01BasicObject: phony chapter09/ex01-basicObject/ex01BasicObject
+
+build ex01DataControl: phony chapter09/ex01-basicObject/lib/control/libex01DataControl.a
+
 build ex01DefaultParameter: phony chapter03/ex01-defaultParameter/ex01DefaultParameter
 
 build ex01ExampleHelloWorld: phony chapter01/ex01-HelloWorld/ex01ExampleHelloWorld
@@ -5239,6 +5544,10 @@ build ex01Object: phony chapter04/ex01-object/ex01Object
 build ex01OpArithmetic: phony chapter05/ex01-opArithmetic/ex01OpArithmetic
 
 build ex01TemplateClass: phony chapter07/ex01-templateClass/ex01TemplateClass
+
+build ex01UserData: phony chapter09/ex01-basicObject/lib/userData/libex01UserData.a
+
+build ex01UserInterface: phony chapter09/ex01-basicObject/lib/userInterface/libex01UserInterface.a
 
 build ex01Variable: phony chapter02/ex01_01-variable/ex01Variable
 
@@ -5364,6 +5673,12 @@ build ex17RvalueReferenceError: phony chapter04/ex17-02-RvalueReferenceError/ex1
 
 build ex18MoveSemantics: phony chapter04/ex18-moveSemantics/ex18MoveSemantics
 
+build libex01DataControl.a: phony chapter09/ex01-basicObject/lib/control/libex01DataControl.a
+
+build libex01UserData.a: phony chapter09/ex01-basicObject/lib/userData/libex01UserData.a
+
+build libex01UserInterface.a: phony chapter09/ex01-basicObject/lib/userInterface/libex01UserInterface.a
+
 # =============================================================================
 # Folder targets.
 
@@ -5372,7 +5687,7 @@ build ex18MoveSemantics: phony chapter04/ex18-moveSemantics/ex18MoveSemantics
 #############################################
 # Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug
 
-build all: phony chapter01/all chapter02/all chapter03/all chapter04/all chapter05/all chapter06/all chapter07/all chapter08/all
+build all: phony chapter01/all chapter02/all chapter03/all chapter04/all chapter05/all chapter06/all chapter07/all chapter08/all chapter09/all
 
 # =============================================================================
 
@@ -6005,6 +6320,48 @@ build chapter08/ex04-exceptionClass/all: phony chapter08/ex04-exceptionClass/ex0
 build chapter08/ex05-memoryErrorClass/all: phony chapter08/ex05-memoryErrorClass/ex05MemoryErrorClass
 
 # =============================================================================
+
+#############################################
+# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09
+
+build chapter09/all: phony chapter09/ex01-basicObject/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject
+
+build chapter09/ex01-basicObject/all: phony chapter09/ex01-basicObject/ex01BasicObject chapter09/ex01-basicObject/lib/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject/lib
+
+build chapter09/ex01-basicObject/lib/all: phony chapter09/ex01-basicObject/lib/control/all chapter09/ex01-basicObject/lib/userData/all chapter09/ex01-basicObject/lib/userInterface/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject/lib/control
+
+build chapter09/ex01-basicObject/lib/control/all: phony chapter09/ex01-basicObject/lib/control/libex01DataControl.a
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject/lib/userData
+
+build chapter09/ex01-basicObject/lib/userData/all: phony chapter09/ex01-basicObject/lib/userData/libex01UserData.a
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/cmake-build-debug/chapter09/ex01-basicObject/lib/userInterface
+
+build chapter09/ex01-basicObject/lib/userInterface/all: phony chapter09/ex01-basicObject/lib/userInterface/libex01UserInterface.a
+
+# =============================================================================
 # Unknown Build Time Dependencies.
 # Tell Ninja that they may appear as side effects of build rules
 # otherwise ordered by order-only dependencies.
@@ -6016,14 +6373,14 @@ build chapter08/ex05-memoryErrorClass/all: phony chapter08/ex05-memoryErrorClass
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex15-conversionConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex16-CMyStringStep04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex17-01-RValueReference/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex17-02-RvalueReferenceError/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex18-moveSemantics/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex19-CMyStringStep05/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex01-opArithmetic/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex02-CMyStringStep06/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex03-opAssignReturnValue/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex04-opFuncReDefine/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex05-opArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex06-unaryOperator/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex07-CMyStringStep07/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex08-01-objAggregation/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex08-02-objComposition/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex08-friendKeyword/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex09-CMyStringStep08/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex10-inheritanceClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex11-OverRideRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex12-CMyStringStep09/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex13-InheritanceConstructorAndDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex14-InheritanceSelectConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex15-wrongUsingConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex01-virtualKeyword/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex02-virtualDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex03-CMyStringStep10/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex04-binding/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex04_01-vtableSample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex05-pureVirtualFunction/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex06-interfaceExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex07-casting/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex08_01-typeid/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex08_02-dynamicCasting/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex09_01-multiInheritance/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex09_02-multiInterface/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex10-virtualInheritance/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex01-templateClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex02-specializationTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex03-templateArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex04-templateInherit/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex05_01-smartPointerAutoPtr/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex05_02-smartPointerAutoPtrError/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex06_01-smartPointerSharedPtr/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex06_02-smartPointerSharedPtrArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex06_03-smartPointerUniquePtr/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex01_01-ifErrorHandle/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex01_02-gotoErrorHandle/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex01_03-tryThrowCatch/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex02-multiCatch/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex03-stackUnwinding/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex04-exceptionClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex05-memoryErrorClass/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex15-conversionConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex16-CMyStringStep04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex17-01-RValueReference/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex17-02-RvalueReferenceError/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex18-moveSemantics/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex19-CMyStringStep05/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex01-opArithmetic/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex02-CMyStringStep06/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex03-opAssignReturnValue/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex04-opFuncReDefine/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex05-opArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex06-unaryOperator/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex07-CMyStringStep07/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex08-01-objAggregation/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex08-02-objComposition/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex08-friendKeyword/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex09-CMyStringStep08/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex10-inheritanceClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex11-OverRideRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex12-CMyStringStep09/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex13-InheritanceConstructorAndDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex14-InheritanceSelectConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex15-wrongUsingConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex01-virtualKeyword/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex02-virtualDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex03-CMyStringStep10/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex04-binding/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex04_01-vtableSample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex05-pureVirtualFunction/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex06-interfaceExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex07-casting/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex08_01-typeid/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex08_02-dynamicCasting/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex09_01-multiInheritance/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex09_02-multiInterface/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex10-virtualInheritance/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex01-templateClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex02-specializationTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex03-templateArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex04-templateInherit/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex05_01-smartPointerAutoPtr/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex05_02-smartPointerAutoPtrError/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex06_01-smartPointerSharedPtr/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex06_02-smartPointerSharedPtrArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex06_03-smartPointerUniquePtr/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex01_01-ifErrorHandle/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex01_02-gotoErrorHandle/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex01_03-tryThrowCatch/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex02-multiCatch/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex03-stackUnwinding/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex04-exceptionClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex05-memoryErrorClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/control/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userData/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userInterface/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex15-conversionConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex16-CMyStringStep04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex17-01-RValueReference/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex17-02-RvalueReferenceError/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex18-moveSemantics/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex19-CMyStringStep05/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex01-opArithmetic/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex02-CMyStringStep06/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex03-opAssignReturnValue/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex04-opFuncReDefine/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex05-opArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex06-unaryOperator/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex07-CMyStringStep07/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex08-01-objAggregation/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex08-02-objComposition/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex08-friendKeyword/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex09-CMyStringStep08/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex10-inheritanceClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex11-OverRideRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex12-CMyStringStep09/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex13-InheritanceConstructorAndDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex14-InheritanceSelectConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex15-wrongUsingConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex01-virtualKeyword/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex02-virtualDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex03-CMyStringStep10/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex04-binding/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex04_01-vtableSample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex05-pureVirtualFunction/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex06-interfaceExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex07-casting/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex08_01-typeid/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex08_02-dynamicCasting/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex09_01-multiInheritance/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex09_02-multiInterface/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex10-virtualInheritance/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex01-templateClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex02-specializationTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex03-templateArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex04-templateInherit/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex05_01-smartPointerAutoPtr/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex05_02-smartPointerAutoPtrError/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex06_01-smartPointerSharedPtr/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex06_02-smartPointerSharedPtrArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex06_03-smartPointerUniquePtr/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex01_01-ifErrorHandle/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex01_02-gotoErrorHandle/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex01_03-tryThrowCatch/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex02-multiCatch/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex03-stackUnwinding/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex04-exceptionClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex05-memoryErrorClass/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/duckheewon/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex01-HelloWorld/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0201-coutExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter01/ex0202-cinExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_01-variable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex01_02-variableArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_01-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex02_02-refAndPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_01-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex03_02-RvalueRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter02/ex04-rangeLoop/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex01-defaultParameter/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex02-overloading/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex03-functionTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-01-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex04-02-nest-namespace/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter03/ex05-namespace-priority/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex01-object/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex02-cStyleCcode/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex03-classBasicGrammar/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex04-classConstructorDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex05-classMemberVariableReset/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex06-multiConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex07-thisPointer/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex08-cMyStringStep01/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex09-CMyStringStep02/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex10-staticVariable/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex11-copyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex12-tempObjAndCopyConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex13-deepCopyAndShallowCopy/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex14-CMyStringStep03/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex15-conversionConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex16-CMyStringStep04/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex17-01-RValueReference/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex17-02-RvalueReferenceError/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex18-moveSemantics/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter04/ex19-CMyStringStep05/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex01-opArithmetic/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex02-CMyStringStep06/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex03-opAssignReturnValue/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex04-opFuncReDefine/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex05-opArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex06-unaryOperator/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex07-CMyStringStep07/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex08-01-objAggregation/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex08-02-objComposition/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex08-friendKeyword/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex09-CMyStringStep08/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex10-inheritanceClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex11-OverRideRef/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex12-CMyStringStep09/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex13-InheritanceConstructorAndDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex14-InheritanceSelectConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter05/ex15-wrongUsingConstructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex01-virtualKeyword/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex02-virtualDestructor/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex03-CMyStringStep10/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex04-binding/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex04_01-vtableSample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex05-pureVirtualFunction/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex06-interfaceExample/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex07-casting/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex08_01-typeid/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex08_02-dynamicCasting/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex09_01-multiInheritance/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex09_02-multiInterface/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter06/ex10-virtualInheritance/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex01-templateClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex02-specializationTemplate/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex03-templateArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex04-templateInherit/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex05_01-smartPointerAutoPtr/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex05_02-smartPointerAutoPtrError/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex06_01-smartPointerSharedPtr/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex06_02-smartPointerSharedPtrArray/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter07/ex06_03-smartPointerUniquePtr/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex01_01-ifErrorHandle/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex01_02-gotoErrorHandle/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex01_03-tryThrowCatch/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex02-multiCatch/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex03-stackUnwinding/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex04-exceptionClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter08/ex05-memoryErrorClass/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/control/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userData/CMakeLists.txt /Users/duckheewon/CLionProjects/cPlusPlusStudy-infrean/chapter09/ex01-basicObject/lib/userInterface/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################
