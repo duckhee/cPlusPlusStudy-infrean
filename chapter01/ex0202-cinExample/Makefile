@@ -6,7 +6,7 @@ BUILD_DIR = buildDir
 
 TARGET = ex0202CinExample
 
-CPPOBJS = $(addprefix $(BUILD_DIR)/, ($SRCS:.cpp=.o))
+CPPOBJS = $(addprefix $(BUILD_DIR)/, $(SRCS:.cpp=.o))
 
 all: clean createdirs build
 
