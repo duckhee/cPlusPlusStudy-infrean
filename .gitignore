@@ -88,6 +88,7 @@ dkms.conf
 
 # CMake
 cmake-build-*/
+cmake-build-debug/
 
 ### CMake template
 CMakeLists.txt.user
