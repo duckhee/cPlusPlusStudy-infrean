@@ -1,5 +1,4 @@
-cmake_minimum_required(VERSION 3.2.6)
-
+cmake_minimum_required(VERSION 3.27)
 project(ex01Variable LANGUAGES CXX)
 
 message("chapter02-01-01 variable")
